@@ -1,0 +1,102 @@
+[
+  {
+    "file": "README.md",
+    "sha256": "e88dc475e9c9bc08548f25f96a14e7ef5239af0f34ced0d0dc647678d49a2757",
+    "bytes": 1408
+  },
+  {
+    "file": "backend-fix.log",
+    "sha256": "42eb3f036d98373a10feaf261bf22f06c5c1c786e8a3a1efc1c80ad8357415d9",
+    "bytes": 259178
+  },
+  {
+    "file": "independent-contradiction-review.log",
+    "sha256": "ee1a2e5d2120a89a4f3e192621db5d1c22adb6cbe06dadc8ed2a1d6522485bde",
+    "bytes": 3800
+  },
+  {
+    "file": "judge-initial-proxy-timeout.log",
+    "sha256": "0982a41de1af18551feb8e6bfb41ae8c09185e67e6c91757147d76b65376b7d5",
+    "bytes": 6954
+  },
+  {
+    "file": "judge-original-16-selftests.log",
+    "sha256": "e3d0d0ca58e6b51944735970a3b55acf0b88c0830c933f15726b76d50cd34edf",
+    "bytes": 1893
+  },
+  {
+    "file": "judge-regressions-9.json",
+    "sha256": "2e8b4b287c34337a0d15ab69d60c688d0397db373e31c54e92f3bcf8166bd908",
+    "bytes": 36389
+  },
+  {
+    "file": "judge-regressions-final-10.json",
+    "sha256": "9448a10e064756199110d4208cba856505974663af77ad92347be14e62390c4a",
+    "bytes": 41392
+  },
+  {
+    "file": "judge-selftest-25-of-25.log",
+    "sha256": "2367df66c689f884137db2e4e487506ddd5563c6a74e5edbe7cdc77154d73440",
+    "bytes": 3102
+  },
+  {
+    "file": "judge-selftest-26-first-25-of-26.log",
+    "sha256": "545ce9e5e1015640bf009ec5776edd1eb38bb2acd76605b633dc42314f3f8429",
+    "bytes": 3136
+  },
+  {
+    "file": "judge-selftest-26-of-26.log",
+    "sha256": "a8aa7fc673c2d8242747f8f724cd04f8ca7f24476306b9e417b7f5b847b0309f",
+    "bytes": 3217
+  },
+  {
+    "file": "judge-selftest-first-23-of-25.log",
+    "sha256": "dc83f98fb4f2b4ada8693790405d117256edc920877981e65533393bd159a078",
+    "bytes": 3116
+  },
+  {
+    "file": "latest-parser-replay.json",
+    "sha256": "5c83521c1d88844d082a05ba214ddc75ec5f9afac547989f88fb6d90520c7a53",
+    "bytes": 825
+  },
+  {
+    "file": "live-validation-4.json",
+    "sha256": "4ac7aa597fc1ce1e70bdd5220570c50558721ed61cd2eccd310c642f856d207c",
+    "bytes": 2244
+  },
+  {
+    "file": "manual-review-original-9.json",
+    "sha256": "032c30927131820e8cc6a8faa3326c8d678649612e963f0bb00c9fce021ac54c",
+    "bytes": 38455
+  },
+  {
+    "file": "manual-review-retest-1.json",
+    "sha256": "027ca3266fc5940395e343890d64af3fb75877de1a2b95b98ce3cebcd4a8a7e4",
+    "bytes": 2818
+  },
+  {
+    "file": "rule-replay-23.json",
+    "sha256": "ee7909b6a20c6f0112ccd49817f472ce0fcb5998b894e245615493742075da15",
+    "bytes": 14964
+  },
+  {
+    "file": "rule-replay-23.log",
+    "sha256": "5f4becdaa775c2a391f438167b4a773b09ac74afc080544f9322d6c3cadc9eeb",
+    "bytes": 1700
+  },
+  {
+    "file": "scoring-14-tests.log",
+    "sha256": "286c6680b890ab660f27566b8b0ff9420a53c3083d91220f6bb60116500c95f7",
+    "bytes": 1855
+  },
+  {
+    "file": "scoring-17-tests.log",
+    "sha256": "98a82bb505b495210355a387d15338fdca32c896914153ba493818a4736ecd18",
+    "bytes": 2246
+  },
+  {
+    "file": "scoring-before-fix-expected-failures.log",
+    "sha256": "67e79f042e231de71c15383700e09bba0354b0b9ebd4e78e69228ae43849bc1f",
+    "bytes": 7610
+  }
+]

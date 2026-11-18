@@ -1,0 +1,122 @@
+{
+  "http_validation": [
+    {
+      "id": "cf-sf-capital",
+      "passed": true,
+      "seconds": 1307,
+      "refs": 15,
+      "source_gaps": [],
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 3,
+        "issues_count": 18
+      },
+      "iterations": 1,
+      "initial_raw_count_pairs": [
+        [
+          10,
+          10
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "all_counts_match": true,
+      "supplementary_raw_events": 5
+    },
+    {
+      "id": "uav-layout",
+      "passed": true,
+      "seconds": 1387,
+      "refs": 15,
+      "source_gaps": [],
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 16
+      },
+      "iterations": 1,
+      "initial_raw_count_pairs": [
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "all_counts_match": true,
+      "supplementary_raw_events": 5
+    },
+    {
+      "id": "engine-substitution",
+      "passed": true,
+      "seconds": 1393,
+      "refs": 19,
+      "source_gaps": [],
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 24
+      },
+      "iterations": 1,
+      "initial_raw_count_pairs": [
+        [
+          9,
+          9
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "all_counts_match": true,
+      "supplementary_raw_events": 5
+    },
+    {
+      "id": "neg-cf-2028-plan",
+      "passed": true,
+      "seconds": 881,
+      "refs": 20,
+      "source_gaps": [],
+      "review": {
+        "verdict": "needs_revision",
+        "quality_score": 5,
+        "issues_count": 20
+      },
+      "iterations": 1,
+      "initial_raw_count_pairs": [
+        [
+          10,
+          10
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "all_counts_match": true,
+      "supplementary_raw_events": 5
+    }
+  ],
+  "schema_retry_observed": 1,
+  "env_sha256": "46ee11edcbfdf6bbc4f95684f72da8439ef7d1c923323f50168011fb11ad69ab"
+}

@@ -1,0 +1,132 @@
+{
+  "run_dir": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-160503",
+  "ok": true,
+  "cases_passed": 2,
+  "cases_total": 2,
+  "metrics": {
+    "completed": {
+      "passed": 2,
+      "applicable": 2,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "no_fabrication": {
+      "passed": 2,
+      "applicable": 2,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "citations_real": {
+      "passed": 2,
+      "applicable": 2,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 2,
+      "applicable": 2,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "source_expected": {
+      "passed": 2,
+      "applicable": 2,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    },
+    "review_effective": {
+      "passed": 1,
+      "applicable": 1,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "facts_correct": {
+      "passed": 2,
+      "applicable": 2,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "numeric_provenance": {
+      "passed": 112,
+      "applicable": 112,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    }
+  },
+  "results": [
+    {
+      "id": "kb-quarterly",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "numeric_provenance": true,
+        "abstained": null
+      },
+      "passed": true,
+      "numeric_provenance": {
+        "supported": 79,
+        "total": 79,
+        "rate": 1.0,
+        "missing": [],
+        "extra_items": 0
+      },
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1632,
+      "report_chars": 3371,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "needs_revision",
+        "quality_score": 5,
+        "issues_count": 15
+      }
+    },
+    {
+      "id": "kb-quarterly",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "numeric_provenance": true,
+        "abstained": null
+      },
+      "passed": true,
+      "numeric_provenance": {
+        "supported": 33,
+        "total": 33,
+        "rate": 1.0,
+        "missing": [],
+        "extra_items": 0
+      },
+      "missing_facts": [],
+      "error": null,
+      "seconds": 408,
+      "report_chars": 817,
+      "refs": 11,
+      "retrieved": 1,
+      "review": null
+    }
+  ]
+}

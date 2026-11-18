@@ -1,0 +1,545 @@
+[
+ {
+  "id": "avic-155-mainline",
+  "layer": "research",
+  "query": "航空工业集团十五五规划的战略主线是什么？",
+  "versions": [
+   "v2",
+   "v1"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "高质量发展",
+   "体系化竞争",
+   "自主可控",
+   "全球竞争力"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "avic-1336",
+  "layer": "research",
+  "query": "航空工业集团1336发展战略的内涵及其对主机厂的要求是什么？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "战略内涵",
+   "对主机厂的要求",
+   "落地举措"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "cf-sf-posture",
+  "layer": "research",
+  "query": "成飞与沈飞在十五五期间的战略定位差异是什么？",
+  "versions": [
+   "v2",
+   "v1"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "成飞定位",
+   "沈飞定位",
+   "产品谱系分工",
+   "不确定性"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "cf-sf-capital",
+  "layer": "research",
+  "query": "成飞与沈飞的资本化路径和上市平台有何不同？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "成飞资本化路径",
+   "沈飞上市平台",
+   "财务规模对比"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "gen6-progress",
+  "layer": "research",
+  "query": "中国六代机预研的公开进展和主要不确定性有哪些？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "公开进展",
+   "承担单位",
+   "不确定性",
+   "信息来源可靠性"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "uav-layout",
+  "layer": "research",
+  "query": "成飞和沈飞在无人机领域的布局有何差异？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "成飞无人机产品",
+   "沈飞无人机产品",
+   "有人无人协同"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "carrier-fujian",
+  "layer": "research",
+  "query": "沈飞舰载机需求如何受福建舰进度影响？",
+  "versions": [
+   "v2",
+   "v1"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "福建舰进度",
+   "舰载机型号",
+   "需求测算",
+   "不确定性"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "carrier-lineup",
+  "layer": "research",
+  "query": "海军航空兵舰载机谱系的演进方向是什么？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "现役型号",
+   "在研型号",
+   "电磁弹射适配"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "engine-substitution",
+  "layer": "research",
+  "query": "国产航空发动机替代的进展与主要风险有哪些？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "已列装型号",
+   "在研型号",
+   "供应链风险"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "engine-ws15",
+  "layer": "research",
+  "query": "涡扇-15对歼-20产能的影响如何？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "涡扇-15进展",
+   "对产能的影响",
+   "证据强度"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "stealth-material-chain",
+  "layer": "research",
+  "query": "隐身材料与超材料供应链上有哪些核心供应商及上市公司？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "核心供应商",
+   "上市公司映射",
+   "技术路线"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "composite-3dprint",
+  "layer": "research",
+  "query": "复合材料和3D打印在新一代战机制造中的应用现状如何？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "复合材料应用",
+   "增材制造应用",
+   "主要供应商"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "export-j10ce",
+  "layer": "research",
+  "query": "歼-10CE军贸出口的公开进展及对成飞的意义是什么？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "出口客户",
+   "交付进展",
+   "对成飞业绩的意义"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "pricing-reform",
+  "layer": "research",
+  "query": "军品定价机制改革对主机厂盈利能力有何影响？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expected_aspects": [
+   "改革内容",
+   "对毛利率的影响",
+   "不确定性"
+  ],
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "kb-revenue",
+  "layer": "kb_fact",
+  "query": "中航成飞2025年营业收入是多少，同比增长多少？",
+  "versions": [
+   "v2",
+   "v1"
+  ],
+  "search_modes": [
+   "local"
+  ],
+  "expected_source": "local",
+  "expected_facts": [
+   {
+    "name": "营业收入",
+    "any": [
+     "753.59",
+     "75358958001",
+     "7535895"
+    ]
+   },
+   {
+    "name": "同比增速",
+    "any": [
+     "15.84",
+     "15.8%"
+    ]
+   }
+  ],
+  "gold_source": "CF-2025-ANNUAL-SUMMARY.pdf",
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "kb-net-profit",
+  "layer": "kb_fact",
+  "query": "中航成飞2025年归属于上市公司股东的净利润是多少，同比变化如何？",
+  "versions": [
+   "v2",
+   "v1"
+  ],
+  "search_modes": [
+   "local"
+  ],
+  "expected_source": "local",
+  "expected_facts": [
+   {
+    "name": "归母净利润",
+    "any": [
+     "34.32",
+     "3432289851",
+     "343228"
+    ]
+   },
+   {
+    "name": "同比增速",
+    "any": [
+     "6.47"
+    ]
+   }
+  ],
+  "gold_source": "CF-2025-ANNUAL-SUMMARY.pdf",
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "kb-dividend",
+  "layer": "kb_fact",
+  "query": "中航成飞2025年度的利润分配预案是什么？",
+  "versions": [
+   "v2",
+   "v1"
+  ],
+  "search_modes": [
+   "local"
+  ],
+  "expected_source": "local",
+  "expected_facts": [
+   {
+    "name": "每10股派息",
+    "any": [
+     "3.86"
+    ]
+   }
+  ],
+  "gold_source": "CF-2025-ANNUAL-SUMMARY.pdf",
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "kb-auditor",
+  "layer": "kb_fact",
+  "query": "中航成飞2025年年报的审计机构是谁，审计意见是什么？",
+  "versions": [
+   "v2",
+   "v1"
+  ],
+  "search_modes": [
+   "local"
+  ],
+  "expected_source": "local",
+  "expected_facts": [
+   {
+    "name": "审计机构",
+    "any": [
+     "大信"
+    ]
+   },
+   {
+    "name": "审计意见",
+    "any": [
+     "无保留"
+    ]
+   }
+  ],
+  "gold_source": "CF-2025-ANNUAL-SUMMARY.pdf",
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "kb-controlling-holder",
+  "layer": "kb_fact",
+  "query": "中航成飞的第一大股东是谁，持股比例是多少？",
+  "versions": [
+   "v2",
+   "v1"
+  ],
+  "search_modes": [
+   "local"
+  ],
+  "expected_source": "local",
+  "expected_facts": [
+   {
+    "name": "第一大股东",
+    "any": [
+     "中国航空工业集团"
+    ]
+   },
+   {
+    "name": "持股比例",
+    "any": [
+     "78.66"
+    ]
+   }
+  ],
+  "gold_source": "CF-2025-ANNUAL-SUMMARY.pdf",
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "kb-quarterly",
+  "layer": "kb_fact",
+  "query": "中航成飞2025年各季度营业收入分布如何，哪个季度最高？",
+  "versions": [
+   "v2",
+   "v1"
+  ],
+  "search_modes": [
+   "local"
+  ],
+  "expected_source": "local",
+  "expected_facts": [
+   {
+    "name": "报告期间",
+    "any": [
+     "2025年"
+    ],
+    "original_value": "2025年"
+   },
+   {
+    "name": "第一季度营收",
+    "any": [
+     "33.09",
+     "3308640285",
+     "330864"
+    ],
+    "original_value": "3,308,640,285.35元"
+   },
+   {
+    "name": "第二季度营收",
+    "any": [
+     "173.93",
+     "17393488964",
+     "1739348"
+    ],
+    "original_value": "17,393,488,964.30元"
+   },
+   {
+    "name": "第三季度营收",
+    "any": [
+     "275.84",
+     "27584043546",
+     "2758404"
+    ],
+    "original_value": "27,584,043,546.48元"
+   },
+   {
+    "name": "第四季度营收",
+    "any": [
+     "270.73",
+     "27072785205",
+     "2707278"
+    ],
+    "original_value": "27,072,785,205.73元"
+   }
+  ],
+  "gold_source": "CF-2025-ANNUAL-SUMMARY.pdf",
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "noev-rd-staff",
+  "layer": "no_evidence",
+  "query": "中航成飞2025年研发人员数量和研发投入金额分别是多少？",
+  "versions": [
+   "v2",
+   "v1"
+  ],
+  "search_modes": [
+   "local"
+  ],
+  "expect_abstain": true,
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "noev-gen6-output",
+  "layer": "no_evidence",
+  "query": "成飞2027年六代机的计划产量是多少架？",
+  "versions": [
+   "v2",
+   "v1"
+  ],
+  "search_modes": [
+   "local"
+  ],
+  "expect_abstain": true,
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "noev-supplier-contract",
+  "layer": "no_evidence",
+  "query": "中航成飞2025年前五大供应商的名称和采购金额是多少？",
+  "versions": [
+   "v2",
+   "v1"
+  ],
+  "search_modes": [
+   "local"
+  ],
+  "expect_abstain": true,
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "neg-j36-order",
+  "layer": "negative",
+  "query": "歼-36已获得的订单数量和单机合同价格是多少？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expect_abstain": true,
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "neg-cf-2028-plan",
+  "layer": "negative",
+  "query": "成飞2028年各型号的排产计划是什么？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expect_abstain": true,
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "neg-export-secret",
+  "layer": "negative",
+  "query": "歼-35向巴基斯坦出口的合同金额和交付时间表是什么？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expect_abstain": true,
+  "sampled_on": "2026-11-10"
+ },
+ {
+  "id": "neg-supplier-share",
+  "layer": "negative",
+  "query": "成飞隐身涂层的独家供应商及其供货份额是多少？",
+  "versions": [
+   "v2"
+  ],
+  "search_modes": [
+   "web"
+  ],
+  "expect_abstain": true,
+  "sampled_on": "2026-11-10"
+ }
+]

@@ -1,0 +1,22 @@
+{
+  "input_trace": "kb-quarterly.v1.sse",
+  "original_quarterly_row": "| 营业收入|3,308,640,285.35|17,393,488,964.30|27,584,043,546.48|27,072,785,205.73|",
+  "original_annual_row": "| 营业收入|75,358,958,001.86|1,779,761,71<br>0.30|65,054,925,106.17|15.84%|1,677,304,84<br>7.89|77,967,211,8<br>71.95|",
+  "quarterly_source": "5bfeb644cbaa9710ff927c19",
+  "annual_source": "0be3252ae0cc90b7b96ddf20",
+  "report_citations": [
+    "11",
+    "9"
+  ],
+  "sum_of_four_quarters": "75358958001.86",
+  "reported_annual_value": "75358958001.86",
+  "highest_quarter": 3,
+  "q3_exceeds_q4": true,
+  "omitted_unresolved_relations": [
+    "占全年营业收入的〔未核实〕，",
+    "第三季度较第四季度高〔未核实〕，",
+    "第三季度和第四季度合计占全年营业收入约〔未核实〕，"
+  ],
+  "retained_comparison": "第三季度略高于第四季度",
+  "ok": true
+}

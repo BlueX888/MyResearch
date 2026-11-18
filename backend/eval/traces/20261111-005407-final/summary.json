@@ -1,0 +1,175 @@
+{
+  "rule_cases_passed": 21,
+  "rule_cases_total": 21,
+  "rule_metrics": {
+    "completed": {
+      "passed": 21,
+      "applicable": 21,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "no_fabrication": {
+      "passed": 21,
+      "applicable": 21,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "citations_real": {
+      "passed": 21,
+      "applicable": 21,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 21,
+      "applicable": 21,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "review_effective": {
+      "passed": 18,
+      "applicable": 18,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "abstained": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    }
+  },
+  "references": {
+    "retrievable_with_body_nonhomepage": 472,
+    "total": 472
+  },
+  "judge_raw": {
+    "claims": {
+      "S": 190,
+      "P": 413,
+      "N": 73,
+      "C": 6,
+      "U": 0
+    },
+    "support_rate": 0.581,
+    "contradiction_rate": 0.008798,
+    "unjudged": 0,
+    "aspect_coverage": 0.897,
+    "abstain": {
+      "abstain": 3,
+      "hedged": 1,
+      "fabricated": 0
+    },
+    "fabricated_rate": 0.0,
+    "uncited_numeric_rate": 0.496,
+    "evaluation_errors": [],
+    "evaluation_complete": true,
+    "ok": true
+  },
+  "judge_reviewed": {
+    "claims": {
+      "S": 190,
+      "P": 415,
+      "N": 73,
+      "C": 4,
+      "U": 0
+    },
+    "support_rate": 0.583,
+    "contradiction_rate": 0.005865,
+    "unjudged": 0,
+    "aspect_coverage": 0.897,
+    "abstain": {
+      "abstain": 3,
+      "hedged": 1,
+      "fabricated": 0
+    },
+    "fabricated_rate": 0.0,
+    "uncited_numeric_rate": 0.496,
+    "evaluation_errors": [],
+    "evaluation_complete": true,
+    "ok": true
+  },
+  "coverage": {
+    "covered": 52,
+    "total": 58
+  },
+  "numeric": {
+    "uncited": 985,
+    "total": 1987
+  },
+  "versions": {
+    "v1": {
+      "claims": {
+        "S": 92,
+        "P": 37,
+        "N": 6,
+        "C": 2,
+        "U": 0
+      },
+      "support_rate": 0.807,
+      "contradiction_rate": 0.014599,
+      "unjudged": 0,
+      "aspect_coverage": 0.75,
+      "abstain": null,
+      "fabricated_rate": null,
+      "uncited_numeric_rate": 0.18,
+      "evaluation_errors": [],
+      "evaluation_complete": true,
+      "ok": true
+    },
+    "v2": {
+      "claims": {
+        "S": 98,
+        "P": 378,
+        "N": 67,
+        "C": 2,
+        "U": 0
+      },
+      "support_rate": 0.527,
+      "contradiction_rate": 0.00367,
+      "unjudged": 0,
+      "aspect_coverage": 0.935,
+      "abstain": {
+        "abstain": 3,
+        "hedged": 1,
+        "fabricated": 0
+      },
+      "fabricated_rate": 0.0,
+      "uncited_numeric_rate": 0.525,
+      "evaluation_errors": [],
+      "evaluation_complete": true,
+      "ok": true
+    }
+  },
+  "internal_review_scores": {
+    "3": 5,
+    "4": 11,
+    "5": 2
+  },
+  "iterations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "run_dir": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-162542",
+  "ok": true,
+  "cases_passed": 1,
+  "cases_total": 1,
+  "metrics": {
+    "completed": {
+      "passed": 1,
+      "applicable": 1,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "no_fabrication": {
+      "passed": 1,
+      "applicable": 1,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "citations_real": {
+      "passed": 1,
+      "applicable": 1,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 1,
+      "applicable": 1,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "source_expected": {
+      "passed": 1,
+      "applicable": 1,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    },
+    "review_effective": {
+      "passed": 1,
+      "applicable": 1,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "facts_correct": {
+      "passed": 1,
+      "applicable": 1,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "numeric_provenance": {
+      "passed": 76,
+      "applicable": 76,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    }
+  },
+  "results": [
+    {
+      "id": "kb-quarterly",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "numeric_provenance": true,
+        "abstained": null
+      },
+      "passed": true,
+      "numeric_provenance": {
+        "supported": 76,
+        "total": 76,
+        "rate": 1.0,
+        "missing": [],
+        "extra_items": 0
+      },
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1600,
+      "report_chars": 3193,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 11
+      }
+    }
+  ]
+}

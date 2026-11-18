@@ -1,0 +1,174 @@
+{
+  "baseline_run_dir": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207",
+  "retest_run_dir": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-001431",
+  "selection": [
+    {
+      "id": "avic-155-mainline",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/avic-155-mainline.v2.sse",
+      "sha256": "8742a2935acb33ccb7010954d7fd7bd0c42d9ceca35d7e1a1c6846b439258fde",
+      "seconds": 760
+    },
+    {
+      "id": "avic-155-mainline",
+      "version": "v1",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/avic-155-mainline.v1.sse",
+      "sha256": "88596431e70f0992c47a2131eeed8c3a9918f707518f69fea99d7e6e05720fbc",
+      "seconds": 45
+    },
+    {
+      "id": "avic-1336",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/avic-1336.v2.sse",
+      "sha256": "41f6f9d9a2b257b577fe879bf965f856544dd55c0bb374db341b203a79b74f10",
+      "seconds": 1196
+    },
+    {
+      "id": "cf-sf-posture",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/cf-sf-posture.v2.sse",
+      "sha256": "ea623dd6a8364045dc5572fabfc606b62e28321f82c0da3b4fa3a556ba4c5ab1",
+      "seconds": 1155
+    },
+    {
+      "id": "cf-sf-posture",
+      "version": "v1",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/cf-sf-posture.v1.sse",
+      "sha256": "b9f43541311d32fdc6e3ada49b96976192feff936bf38a66ee7688ff2f36953b",
+      "seconds": 67
+    },
+    {
+      "id": "cf-sf-capital",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-001431/cf-sf-capital.v2.sse",
+      "sha256": "89687daa7f7fc254423becc2ce24d4123706d6a3b27c1be35399d79fffbf88c8",
+      "seconds": 1307
+    },
+    {
+      "id": "gen6-progress",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/gen6-progress.v2.sse",
+      "sha256": "7e8c9bb28fd4349018eca9a8c9254197e04c74cc53086876256b538b127ca76f",
+      "seconds": 999
+    },
+    {
+      "id": "uav-layout",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-001431/uav-layout.v2.sse",
+      "sha256": "785841d89b5d18c9af1ed1a2a077c3b9834e36c5ce54a22baace9177f54fd881",
+      "seconds": 1387
+    },
+    {
+      "id": "carrier-fujian",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/carrier-fujian.v2.sse",
+      "sha256": "991f688198c69a81e4d4f764570ff9d1b28cbff333ec1eab2b686fa9b2c9caf9",
+      "seconds": 1030
+    },
+    {
+      "id": "carrier-fujian",
+      "version": "v1",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/carrier-fujian.v1.sse",
+      "sha256": "8b9b282eab05a6d89508db5ee5b0df974b77a28da1465b904cb798be94632201",
+      "seconds": 56
+    },
+    {
+      "id": "carrier-lineup",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/carrier-lineup.v2.sse",
+      "sha256": "a938d9209b8313228b1a0b33274b139c298f05efb198723e3c6267e360816006",
+      "seconds": 1050
+    },
+    {
+      "id": "engine-substitution",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-001431/engine-substitution.v2.sse",
+      "sha256": "43a9092fe4b2c341af5c7b7116087d157953b68c99416c13dc4eab2ffe17992a",
+      "seconds": 1393
+    },
+    {
+      "id": "engine-ws15",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/engine-ws15.v2.sse",
+      "sha256": "302d98b949b0e904eb2a8a5a74dfe79da5ea60a926b5d4531d79562991fa275d",
+      "seconds": 1002
+    },
+    {
+      "id": "stealth-material-chain",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/stealth-material-chain.v2.sse",
+      "sha256": "c65055ce794ac7c758422dadb4553e60d75788b07faf4d4a419161ef4814f97a",
+      "seconds": 1067
+    },
+    {
+      "id": "composite-3dprint",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/composite-3dprint.v2.sse",
+      "sha256": "9fd94aca49daa57b482d094fcf8a0075e5aea838f25141a84ad9201ab728bec7",
+      "seconds": 1131
+    },
+    {
+      "id": "export-j10ce",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/export-j10ce.v2.sse",
+      "sha256": "7afc7df083c31324898f50d2b6d111915ffd2e7e1b7e54e14163e7d60bc6d22d",
+      "seconds": 988
+    },
+    {
+      "id": "pricing-reform",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/pricing-reform.v2.sse",
+      "sha256": "c78779db3f6578760c3164e3e86c913e27bac8e406b36dadecaa7c7399532da4",
+      "seconds": 1089
+    },
+    {
+      "id": "neg-j36-order",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/neg-j36-order.v2.sse",
+      "sha256": "cec0b554d3c6beb3e9229dca9c7d82e8ffa28bec785f8d03f0ad70498421e54b",
+      "seconds": 686
+    },
+    {
+      "id": "neg-cf-2028-plan",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-001431/neg-cf-2028-plan.v2.sse",
+      "sha256": "f240ef9e9ff86114dd078f78666bfecee2b9eb971db12e47b905f41f7136c961",
+      "seconds": 881
+    },
+    {
+      "id": "neg-export-secret",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/neg-export-secret.v2.sse",
+      "sha256": "c48eb94964ea354803ece635783f9e4d35f927457aa3037e7a0278fc9af5a58b",
+      "seconds": 972
+    },
+    {
+      "id": "neg-supplier-share",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/neg-supplier-share.v2.sse",
+      "sha256": "303c990f8ac420b406e7f33d92fedb6017eafaf54fd280fc22004b2eb9ceba34",
+      "seconds": 957
+    }
+  ],
+  "method": "unaffected original reports plus live validated fixes; original traces preserved",
+  "code_sha256": {
+    "eval/run_eval.py": "9c39cacef794b60eaf5e8f98a87b2b6fea098169865211de65c3e27be414fd2e",
+    "eval/judge.py": "2aaf7cf9f40e336888048bb6e4a4b3f09ff95c2ad308b1b535a438dc22a3c536",
+    "eval/judge_regressions.json": "2e8b4b287c34337a0d15ab69d60c688d0397db373e31c54e92f3bcf8166bd908",
+    "app/service/deep_research_v2/agents/scout.py": "c5f6c1bb2abb08fdd04f991bc08252dee0d8821468c3256755296f07c5e3c7c8",
+    "app/service/deep_research_v2/agents/critic.py": "49001f8b70737c3b1fc63bf18bcea8003a4a5d98dfae517f157e8d1c329bc3fa"
+  },
+  "judge_correction": {
+    "method": "all six original C claims independently rejudged using confirm_contradictions; other verdicts, coverage and abstention preserved from full baseline",
+    "created_at": "2026-11-11T01:28:20.477006+08:00",
+    "source": "judge.json",
+    "judge_sha256": "67dacf9bccbe8258d94832e1a9048f50ab56dc4a883712157f8d5b0e959852a0",
+    "parser_sha256": "18685d7e90bf0364cb3c0baca8a3079bf2c08d5ed5b0291cd755c55dc7f95703",
+    "targeted_judge_run": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-011818-judge-targeted",
+    "raw_results": "judge.json",
+    "corrected_results": "judge.corrected.json",
+    "correction_records": "judgement-corrections.json",
+    "updated_parser_sha256": "18685d7e90bf0364cb3c0baca8a3079bf2c08d5ed5b0291cd755c55dc7f95703",
+    "fixtures_sha256": "9448a10e064756199110d4208cba856505974663af77ad92347be14e62390c4a"
+  }
+}

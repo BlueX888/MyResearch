@@ -1,0 +1,311 @@
+{
+  "run_dir": "eval/traces/20261110-191443",
+  "ok": false,
+  "cases_passed": 8,
+  "cases_total": 9,
+  "metrics": {
+    "completed": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "no_fabrication": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "citations_real": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "source_expected": {
+      "passed": 6,
+      "applicable": 6,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    },
+    "review_effective": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "facts_correct": {
+      "passed": 5,
+      "applicable": 6,
+      "rate": 0.833,
+      "gate": 1.0,
+      "ok": false
+    },
+    "abstained": {
+      "passed": 3,
+      "applicable": 3,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    }
+  },
+  "results": [
+    {
+      "id": "kb-revenue",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 589,
+      "report_chars": 9914,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 24
+      }
+    },
+    {
+      "id": "kb-net-profit",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": false,
+        "abstained": null
+      },
+      "passed": false,
+      "missing_facts": [
+        "同比增速"
+      ],
+      "error": null,
+      "seconds": 639,
+      "report_chars": 11265,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 3,
+        "issues_count": 18
+      }
+    },
+    {
+      "id": "kb-dividend",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 610,
+      "report_chars": 8665,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "needs_revision",
+        "quality_score": 5,
+        "issues_count": 18
+      }
+    },
+    {
+      "id": "kb-auditor",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 456,
+      "report_chars": 8428,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "needs_revision",
+        "quality_score": 5,
+        "issues_count": 10
+      }
+    },
+    {
+      "id": "kb-controlling-holder",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 660,
+      "report_chars": 4276,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 23
+      }
+    },
+    {
+      "id": "kb-quarterly",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 539,
+      "report_chars": 8133,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 23
+      }
+    },
+    {
+      "id": "noev-rd-staff",
+      "layer": "no_evidence",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 491,
+      "report_chars": 7518,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 12
+      }
+    },
+    {
+      "id": "noev-gen6-output",
+      "layer": "no_evidence",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 497,
+      "report_chars": 10017,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 25
+      }
+    },
+    {
+      "id": "noev-supplier-contract",
+      "layer": "no_evidence",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 400,
+      "report_chars": 8718,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 10
+      }
+    }
+  ]
+}

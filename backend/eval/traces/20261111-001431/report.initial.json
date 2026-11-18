@@ -1,0 +1,160 @@
+{
+  "run_dir": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-001431",
+  "ok": true,
+  "cases_passed": 4,
+  "cases_total": 4,
+  "metrics": {
+    "completed": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "no_fabrication": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "citations_real": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "review_effective": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "abstained": {
+      "passed": 1,
+      "applicable": 1,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    }
+  },
+  "results": [
+    {
+      "id": "cf-sf-capital",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1307,
+      "report_chars": 12209,
+      "refs": 15,
+      "retrieved": 212,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 3,
+        "issues_count": 18
+      }
+    },
+    {
+      "id": "uav-layout",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1387,
+      "report_chars": 12076,
+      "refs": 15,
+      "retrieved": 224,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 16
+      }
+    },
+    {
+      "id": "engine-substitution",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1393,
+      "report_chars": 12715,
+      "refs": 19,
+      "retrieved": 219,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 24
+      }
+    },
+    {
+      "id": "neg-cf-2028-plan",
+      "layer": "negative",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 881,
+      "report_chars": 12295,
+      "refs": 20,
+      "retrieved": 191,
+      "review": {
+        "verdict": "needs_revision",
+        "quality_score": 5,
+        "issues_count": 20
+      }
+    }
+  ]
+}

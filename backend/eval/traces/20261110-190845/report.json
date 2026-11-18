@@ -1,0 +1,272 @@
+{
+  "run_dir": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-190845",
+  "ok": false,
+  "cases_passed": 7,
+  "cases_total": 9,
+  "metrics": {
+    "completed": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "no_fabrication": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "citations_real": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "source_expected": {
+      "passed": 6,
+      "applicable": 6,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    },
+    "facts_correct": {
+      "passed": 4,
+      "applicable": 6,
+      "rate": 0.667,
+      "gate": 1.0,
+      "ok": false
+    },
+    "abstained": {
+      "passed": 3,
+      "applicable": 3,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    }
+  },
+  "results": [
+    {
+      "id": "kb-revenue",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": false,
+        "abstained": null
+      },
+      "passed": false,
+      "missing_facts": [
+        "营业收入",
+        "同比增速"
+      ],
+      "error": null,
+      "seconds": 24,
+      "report_chars": 1357,
+      "refs": 55,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "kb-net-profit",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 24,
+      "report_chars": 1528,
+      "refs": 60,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "kb-dividend",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 38,
+      "report_chars": 1762,
+      "refs": 55,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "kb-auditor",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 24,
+      "report_chars": 1504,
+      "refs": 60,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "kb-controlling-holder",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 18,
+      "report_chars": 2290,
+      "refs": 25,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "kb-quarterly",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": false,
+        "abstained": null
+      },
+      "passed": false,
+      "missing_facts": [
+        "第三季度营收",
+        "第一季度营收"
+      ],
+      "error": null,
+      "seconds": 32,
+      "report_chars": 2205,
+      "refs": 60,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "noev-rd-staff",
+      "layer": "no_evidence",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 27,
+      "report_chars": 2148,
+      "refs": 60,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "noev-gen6-output",
+      "layer": "no_evidence",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 31,
+      "report_chars": 1617,
+      "refs": 55,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "noev-supplier-contract",
+      "layer": "no_evidence",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 45,
+      "report_chars": 1762,
+      "refs": 55,
+      "retrieved": 1,
+      "review": null
+    }
+  ]
+}

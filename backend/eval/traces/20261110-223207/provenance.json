@@ -1,0 +1,41 @@
+{
+  "previous_work_dir": "/tmp/industry_eval_20261110-210537",
+  "runtime_no_proxy": "localhost,127.0.0.1,llm-center.modelbest.co",
+  "preserved_completed": [
+    {
+      "id": "avic-155-mainline",
+      "version": "v2",
+      "path": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-210600/avic-155-mainline.v2.sse",
+      "seconds": 760,
+      "copied_to": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/avic-155-mainline.v2.sse"
+    },
+    {
+      "id": "avic-155-mainline",
+      "version": "v1",
+      "path": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-210600/avic-155-mainline.v1.sse",
+      "seconds": 45,
+      "copied_to": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/avic-155-mainline.v1.sse"
+    },
+    {
+      "id": "avic-1336",
+      "version": "v2",
+      "path": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-210600/avic-1336.v2.sse",
+      "seconds": 1196,
+      "copied_to": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/avic-1336.v2.sse"
+    },
+    {
+      "id": "cf-sf-posture",
+      "version": "v2",
+      "path": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-210600/cf-sf-posture.v2.sse",
+      "seconds": 1155,
+      "copied_to": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/cf-sf-posture.v2.sse"
+    },
+    {
+      "id": "cf-sf-posture",
+      "version": "v1",
+      "path": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-210600/cf-sf-posture.v1.sse",
+      "seconds": 67,
+      "copied_to": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-223207/cf-sf-posture.v1.sse"
+    }
+  ]
+}

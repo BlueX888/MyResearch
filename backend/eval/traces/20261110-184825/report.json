@@ -1,0 +1,196 @@
+{
+  "run_dir": "eval/traces/20261110-184825/",
+  "ok": false,
+  "cases_passed": 4,
+  "cases_total": 5,
+  "metrics": {
+    "completed": {
+      "passed": 4,
+      "applicable": 5,
+      "rate": 0.8,
+      "gate": 0.95,
+      "ok": false
+    },
+    "no_fabrication": {
+      "passed": 5,
+      "applicable": 5,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "citations_real": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 5,
+      "applicable": 5,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "source_expected": {
+      "passed": 1,
+      "applicable": 2,
+      "rate": 0.5,
+      "gate": null,
+      "ok": true
+    },
+    "review_effective": {
+      "passed": 3,
+      "applicable": 3,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "facts_correct": {
+      "passed": 1,
+      "applicable": 2,
+      "rate": 0.5,
+      "gate": 1.0,
+      "ok": false
+    },
+    "abstained": {
+      "passed": 2,
+      "applicable": 2,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    }
+  },
+  "results": [
+    {
+      "id": "kb-revenue",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 659,
+      "report_chars": 9192,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 3,
+        "issues_count": 17
+      }
+    },
+    {
+      "id": "kb-revenue",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": false,
+        "no_fabrication": true,
+        "citations_real": null,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": false,
+        "abstained": null
+      },
+      "passed": false,
+      "missing_facts": [
+        "营业收入",
+        "同比增速"
+      ],
+      "error": "未能收集到足够的研究信息",
+      "seconds": null,
+      "report_chars": 0,
+      "refs": 0,
+      "retrieved": 0,
+      "review": null
+    },
+    {
+      "id": "noev-rd-staff",
+      "layer": "no_evidence",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 555,
+      "report_chars": 11176,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 12
+      }
+    },
+    {
+      "id": "noev-rd-staff",
+      "layer": "no_evidence",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 1293,
+      "refs": 5,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "stock-shenfei",
+      "layer": "stock",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": false,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1019,
+      "report_chars": 12343,
+      "refs": 16,
+      "retrieved": 134,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 3,
+        "issues_count": 20
+      }
+    }
+  ]
+}

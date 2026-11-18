@@ -1,0 +1,31 @@
+# 本地启动覆盖配置
+#
+# 目的：让 `docker compose up -d` / `./start-services.sh start` 在本机可直接工作，
+# 而无需拉取公网镜像或与本地已安装的 PostgreSQL 抢占 5432 端口。
+#
+# 1. Milvus / MinIO 固定为本机已有镜像版本（无需联网拉取）
+# 2. postgres 与 elasticsearch 放入可选 profile：
+#    - 本机已有 Homebrew PostgreSQL 16 占用 5432，且后端只连 5432，故不启动容器版
+#    - Elasticsearch 在 backend/app 与 frontend/src 中均未被引用，故不启动
+#    如需启用：docker compose --profile with-db up -d
+
+services:
+  postgres:
+    profiles: ["with-db"]
+
+  elasticsearch:
+    profiles: ["with-db"]
+
+  minio:
+    image: minio/minio:latest
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+      MINIO_ACCESS_KEY: minioadmin
+      MINIO_SECRET_KEY: minioadmin
+    volumes:
+      - minio_data:/data
+    command: minio server /data --console-address ":9001"
+
+  milvus:
+    image: milvusdb/milvus:v2.4.17

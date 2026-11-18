@@ -1,0 +1,49 @@
+{
+  "versions": {
+    "v2": {
+      "n": 18,
+      "min_seconds": 686,
+      "median_seconds": 1040.0,
+      "max_seconds": 1393,
+      "total_seconds": 19050,
+      "median_report_chars": 12385.5,
+      "median_refs": 19.0
+    },
+    "v1": {
+      "n": 3,
+      "min_seconds": 45,
+      "median_seconds": 56,
+      "max_seconds": 67,
+      "total_seconds": 168,
+      "median_report_chars": 4930,
+      "median_refs": 47
+    }
+  },
+  "agent_median_seconds": {
+    "ChiefArchitect": {
+      "median": 11.6,
+      "n": 18
+    },
+    "DeepScout": {
+      "median": 457.8,
+      "n": 18
+    },
+    "DataAnalyst": {
+      "median": 110.6,
+      "n": 18
+    },
+    "CodeWizard": {
+      "median": 56.1,
+      "n": 18
+    },
+    "LeadWriter": {
+      "median": 311.2,
+      "n": 18
+    },
+    "CriticMaster": {
+      "median": 74.0,
+      "n": 18
+    }
+  },
+  "method": "Measured request times; agent times estimated from SSE agent transition timestamps, aggregating research/rewrite rounds."
+}

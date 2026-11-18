@@ -1,0 +1,266 @@
+{
+  "run_dir": "eval/traces/20261110-191207",
+  "ok": true,
+  "cases_passed": 9,
+  "cases_total": 9,
+  "metrics": {
+    "completed": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "no_fabrication": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "citations_real": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "source_expected": {
+      "passed": 6,
+      "applicable": 6,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    },
+    "facts_correct": {
+      "passed": 6,
+      "applicable": 6,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "abstained": {
+      "passed": 3,
+      "applicable": 3,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    }
+  },
+  "results": [
+    {
+      "id": "kb-revenue",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 1072,
+      "refs": 12,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "kb-net-profit",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 1079,
+      "refs": 12,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "kb-dividend",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 2099,
+      "refs": 14,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "kb-auditor",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 1412,
+      "refs": 11,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "kb-controlling-holder",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 2246,
+      "refs": 12,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "kb-quarterly",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 1887,
+      "refs": 12,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "noev-rd-staff",
+      "layer": "no_evidence",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 2548,
+      "refs": 12,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "noev-gen6-output",
+      "layer": "no_evidence",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 1871,
+      "refs": 15,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "noev-supplier-contract",
+      "layer": "no_evidence",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 1433,
+      "refs": 11,
+      "retrieved": 1,
+      "review": null
+    }
+  ]
+}

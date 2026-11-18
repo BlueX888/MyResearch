@@ -1,0 +1,48 @@
+{
+  "passed": 21,
+  "total": 21,
+  "metrics": {
+    "completed": {
+      "passed": 21,
+      "applicable": 21,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "no_fabrication": {
+      "passed": 21,
+      "applicable": 21,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "citations_real": {
+      "passed": 21,
+      "applicable": 21,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 21,
+      "applicable": 21,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "review_effective": {
+      "passed": 18,
+      "applicable": 18,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "abstained": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    }
+  }
+}

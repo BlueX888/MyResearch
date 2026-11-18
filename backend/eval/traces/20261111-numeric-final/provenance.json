@@ -1,0 +1,53 @@
+{
+  "selected": [
+    {
+      "id": "kb-dividend",
+      "version": "v1",
+      "query": "中航成飞2025年度的利润分配预案是什么？",
+      "source_trace": "eval/traces/20261111-152635/kb-dividend.v1.sse",
+      "sha256": "02b01e537ff40f6d2085fd0fdfcbaa699af0544de4474a3fbb500434af69e78d",
+      "http_seconds": 318,
+      "numbers": 40,
+      "lookup_count": 1,
+      "removed_count": 2,
+      "document_year_anchors": 0
+    },
+    {
+      "id": "kb-dividend",
+      "version": "v2",
+      "query": "中航成飞2025年度的利润分配预案是什么？",
+      "source_trace": "eval/traces/20261111-152635/kb-dividend.v2.sse",
+      "sha256": "14929bbcde6a8006a712e07fbec970a1733a789d57e722cd0f752d3e72d9cc16",
+      "http_seconds": 1320,
+      "numbers": 33,
+      "lookup_count": 4,
+      "removed_count": 7,
+      "document_year_anchors": 0
+    },
+    {
+      "id": "kb-quarterly",
+      "version": "v1",
+      "query": "中航成飞2025年各季度营业收入分布如何，哪个季度最高？",
+      "source_trace": "eval/traces/20261111-162512/kb-quarterly.v1.sse",
+      "sha256": "9f1a799d87a7baf358286deb6d07bfbcb2959a32bbfbec3a4bfe7a2d8b5e38bd",
+      "http_seconds": 470,
+      "numbers": 36,
+      "lookup_count": 10,
+      "removed_count": 10,
+      "document_year_anchors": 3
+    },
+    {
+      "id": "kb-quarterly",
+      "version": "v2",
+      "query": "中航成飞2025年各季度营业收入分布如何，哪个季度最高？",
+      "source_trace": "eval/traces/20261111-162542/kb-quarterly.v2.sse",
+      "sha256": "d99c798a0e928f8479efd5ab64b19cce2b3c59ddbf9d0aff9bbfdee9f92954ac",
+      "http_seconds": 1600,
+      "numbers": 76,
+      "lookup_count": 3,
+      "removed_count": 2,
+      "document_year_anchors": 14
+    }
+  ],
+  "decision": "分红保留原 HTTP 定稿；季度题两个版本一起使用报告期溯源修复后的完整 HTTP 复测。按样本保留原始流和实际耗时。"
+}

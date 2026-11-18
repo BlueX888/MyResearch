@@ -1,0 +1,93 @@
+{
+  "method": {
+    "method": "all six original C claims independently rejudged using confirm_contradictions; other verdicts, coverage and abstention preserved from full baseline",
+    "created_at": "2026-11-11T01:28:20.477006+08:00",
+    "source": "judge.json",
+    "judge_sha256": "67dacf9bccbe8258d94832e1a9048f50ab56dc4a883712157f8d5b0e959852a0",
+    "parser_sha256": "18685d7e90bf0364cb3c0baca8a3079bf2c08d5ed5b0291cd755c55dc7f95703"
+  },
+  "claims": [
+    {
+      "id": "avic-155-mainline",
+      "version": "v1",
+      "sources": [
+        "3",
+        "6"
+      ],
+      "sentence": "在成效支撑上，集团2025年研发经费投入强度较上年提高0.26个百分点 ；“十四五”收官之年获得13项2025年度国家科学技术奖励，并在多领域取得高质量创新成果 。",
+      "before": "C",
+      "after": "C",
+      "before_why": "研发强度一致；奖项获得时间与原文2026上半年矛盾",
+      "after_why": "研发强度有据；奖项为2026上半年获得，非2025年",
+      "independently_reviewed": true
+    },
+    {
+      "id": "avic-155-mainline",
+      "version": "v1",
+      "sources": [
+        "41",
+        "6",
+        "7"
+      ],
+      "sentence": "** 2025年10月的党组会议报道中，集团党组书记、董事长为程福波 ；而2026年7月、10月的经营工作会报道中，党组书记、董事长为魏应彪（其在2026年7月时点为党组副书记、总经理）。",
+      "before": "C",
+      "after": "C",
+      "before_why": "来源2显示7月魏应彪为党组副书记、总经理，与句称董事长矛盾",
+      "after_why": "7月报道称魏应彪为党组副书记、总经理，非党组书记、董事长",
+      "independently_reviewed": true
+    },
+    {
+      "id": "cf-sf-posture",
+      "version": "v1",
+      "sources": [
+        "3",
+        "9"
+      ],
+      "sentence": "两者均对正集团“1336”发展战略和“九大任务”“六大工程”部署，但在承接方式上，成飞更突出经营质效与市场拓展，沈飞更突出规划体系与核心能力生成 。",
+      "before": "C",
+      "after": "P",
+      "before_why": "成飞原文为“132”战略、“六项工程”，与句中“1336”“六大工程”矛盾",
+      "after_why": "成飞原文未提1336及六大工程，沈飞有；比较方向有据",
+      "independently_reviewed": true
+    },
+    {
+      "id": "stealth-material-chain",
+      "version": "v2",
+      "sources": [
+        "https://www.doc88.com/p-38573909298052.html"
+      ],
+      "sentence": "雷达隐身要求材料在X波段（8–12 GHz）、Ku波段（12–18 GHz）等火控雷达主频段内实现低反射、高吸收，表面反射率尽可能趋近于零（道客巴巴《雷达-红外兼容隐身材料专利技术分析》）。",
+      "before": "C",
+      "after": "C",
+      "before_why": "原文称X波段2–18GHz，与句中8–12GHz矛盾",
+      "after_why": "原文X波段为2–18GHz，非8–12GHz",
+      "independently_reviewed": true
+    },
+    {
+      "id": "neg-cf-2028-plan",
+      "version": "v2",
+      "sources": [
+        "https://www.toutiao.com/article/7485502394839613992/"
+      ],
+      "sentence": "成飞已连续6年达成“2323”均衡生产高级目标，即全年任务按季度20%/30%/20%/30%分配，2024年超额完成军机转场任务（今日头条转载）。",
+      "before": "C",
+      "after": "P",
+      "before_why": "原文称二、四季度各20%，与句中30%矛盾",
+      "after_why": "连续6年有据，2024年及季度分配缺直接支持",
+      "independently_reviewed": true
+    },
+    {
+      "id": "neg-export-secret",
+      "version": "v2",
+      "sources": [
+        "https://3g.china.com/act/military/13004177/20250607/48436297.html"
+      ],
+      "sentence": "爆料称首批歼-35A或于2026年中期交付、较原计划提前数月；但产能构成硬约束——歼-35A于2024年珠海航展才对外官宣，目前仅小批量入役，需优先满足中国空军自用，海军舰载型随福建舰交付至少需50—60架，能否建成脉动生产线实现年产百架是交付节奏的关键变量（中华网）。",
+      "before": "C",
+      "after": "C",
+      "before_why": "交付时间与原文“未来数月内”矛盾",
+      "after_why": "原文称未来数月内交付，非2026年中期，时间矛盾",
+      "independently_reviewed": true
+    }
+  ]
+}

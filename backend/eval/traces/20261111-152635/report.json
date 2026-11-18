@@ -1,0 +1,198 @@
+{
+  "run_dir": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-152635",
+  "ok": true,
+  "cases_passed": 4,
+  "cases_total": 4,
+  "metrics": {
+    "completed": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "no_fabrication": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "citations_real": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "source_expected": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    },
+    "review_effective": {
+      "passed": 2,
+      "applicable": 2,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "facts_correct": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "numeric_provenance": {
+      "passed": 175,
+      "applicable": 175,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    }
+  },
+  "results": [
+    {
+      "id": "kb-dividend",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "numeric_provenance": true,
+        "abstained": null
+      },
+      "passed": true,
+      "numeric_provenance": {
+        "supported": 33,
+        "total": 33,
+        "rate": 1.0,
+        "missing": [],
+        "extra_items": 0
+      },
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1320,
+      "report_chars": 3082,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 10
+      }
+    },
+    {
+      "id": "kb-dividend",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "numeric_provenance": true,
+        "abstained": null
+      },
+      "passed": true,
+      "numeric_provenance": {
+        "supported": 40,
+        "total": 40,
+        "rate": 1.0,
+        "missing": [],
+        "extra_items": 0
+      },
+      "missing_facts": [],
+      "error": null,
+      "seconds": 318,
+      "report_chars": 1948,
+      "refs": 15,
+      "retrieved": 1,
+      "review": null
+    },
+    {
+      "id": "kb-quarterly",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "numeric_provenance": true,
+        "abstained": null
+      },
+      "passed": true,
+      "numeric_provenance": {
+        "supported": 69,
+        "total": 69,
+        "rate": 1.0,
+        "missing": [],
+        "extra_items": 0
+      },
+      "missing_facts": [],
+      "error": null,
+      "seconds": 2091,
+      "report_chars": 2905,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "needs_revision",
+        "quality_score": 5,
+        "issues_count": 11
+      }
+    },
+    {
+      "id": "kb-quarterly",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": null,
+        "facts_correct": true,
+        "numeric_provenance": true,
+        "abstained": null
+      },
+      "passed": true,
+      "numeric_provenance": {
+        "supported": 33,
+        "total": 33,
+        "rate": 1.0,
+        "missing": [],
+        "extra_items": 0
+      },
+      "missing_facts": [],
+      "error": null,
+      "seconds": 703,
+      "report_chars": 882,
+      "refs": 11,
+      "retrieved": 1,
+      "review": null
+    }
+  ]
+}

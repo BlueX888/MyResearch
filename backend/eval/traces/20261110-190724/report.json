@@ -1,0 +1,269 @@
+{
+  "run_dir": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261110-190724",
+  "ok": false,
+  "cases_passed": 3,
+  "cases_total": 9,
+  "metrics": {
+    "completed": {
+      "passed": 3,
+      "applicable": 9,
+      "rate": 0.333,
+      "gate": 0.95,
+      "ok": false
+    },
+    "no_fabrication": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 9,
+      "applicable": 9,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "facts_correct": {
+      "passed": 0,
+      "applicable": 6,
+      "rate": 0.0,
+      "gate": 1.0,
+      "ok": false
+    },
+    "abstained": {
+      "passed": 3,
+      "applicable": 3,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    }
+  },
+  "results": [
+    {
+      "id": "kb-revenue",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": false,
+        "no_fabrication": true,
+        "citations_real": null,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": false,
+        "abstained": null
+      },
+      "passed": false,
+      "missing_facts": [
+        "营业收入",
+        "同比增速"
+      ],
+      "error": "未能收集到足够的研究信息",
+      "seconds": 6,
+      "report_chars": 0,
+      "refs": 0,
+      "retrieved": 0,
+      "review": null
+    },
+    {
+      "id": "kb-net-profit",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": false,
+        "no_fabrication": true,
+        "citations_real": null,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": false,
+        "abstained": null
+      },
+      "passed": false,
+      "missing_facts": [
+        "归母净利润",
+        "同比增速"
+      ],
+      "error": "未能收集到足够的研究信息",
+      "seconds": 5,
+      "report_chars": 0,
+      "refs": 0,
+      "retrieved": 0,
+      "review": null
+    },
+    {
+      "id": "kb-dividend",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": false,
+        "no_fabrication": true,
+        "citations_real": null,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": false,
+        "abstained": null
+      },
+      "passed": false,
+      "missing_facts": [
+        "每10股派息"
+      ],
+      "error": "未能收集到足够的研究信息",
+      "seconds": 5,
+      "report_chars": 0,
+      "refs": 0,
+      "retrieved": 0,
+      "review": null
+    },
+    {
+      "id": "kb-auditor",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": false,
+        "no_fabrication": true,
+        "citations_real": null,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": false,
+        "abstained": null
+      },
+      "passed": false,
+      "missing_facts": [
+        "审计机构",
+        "审计意见"
+      ],
+      "error": "未能收集到足够的研究信息",
+      "seconds": 6,
+      "report_chars": 0,
+      "refs": 0,
+      "retrieved": 0,
+      "review": null
+    },
+    {
+      "id": "kb-controlling-holder",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": false,
+        "no_fabrication": true,
+        "citations_real": null,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": false,
+        "abstained": null
+      },
+      "passed": false,
+      "missing_facts": [
+        "第一大股东",
+        "持股比例"
+      ],
+      "error": "未能收集到足够的研究信息",
+      "seconds": 5,
+      "report_chars": 0,
+      "refs": 0,
+      "retrieved": 0,
+      "review": null
+    },
+    {
+      "id": "kb-quarterly",
+      "layer": "kb_fact",
+      "version": "v1",
+      "checks": {
+        "completed": false,
+        "no_fabrication": true,
+        "citations_real": null,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": false,
+        "abstained": null
+      },
+      "passed": false,
+      "missing_facts": [
+        "第三季度营收",
+        "第一季度营收"
+      ],
+      "error": "未能收集到足够的研究信息",
+      "seconds": 4,
+      "report_chars": 0,
+      "refs": 0,
+      "retrieved": 0,
+      "review": null
+    },
+    {
+      "id": "noev-rd-staff",
+      "layer": "no_evidence",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": null,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": "未能收集到足够的研究信息",
+      "seconds": 6,
+      "report_chars": 0,
+      "refs": 0,
+      "retrieved": 0,
+      "review": null
+    },
+    {
+      "id": "noev-gen6-output",
+      "layer": "no_evidence",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": null,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": "未能收集到足够的研究信息",
+      "seconds": 7,
+      "report_chars": 0,
+      "refs": 0,
+      "retrieved": 0,
+      "review": null
+    },
+    {
+      "id": "noev-supplier-contract",
+      "layer": "no_evidence",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": null,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": "未能收集到足够的研究信息",
+      "seconds": 9,
+      "report_chars": 0,
+      "refs": 0,
+      "retrieved": 0,
+      "review": null
+    }
+  ]
+}

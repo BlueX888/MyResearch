@@ -1,0 +1,650 @@
+data: {"type": "status", "content": "启动 ReAct 智能研究引擎", "mode": "react"}
+
+data: {"type": "react_start", "query": "中航成飞2025年研发人员数量和研发投入金额分别是多少？", "mode": "optimized"}
+
+data: {"type": "thought", "step": 1, "content": "**问题理解**: 用户想了解中航成飞（通常指中航成飞股份有限公司，证券代码300114）在2025年的研发人员数量和研发投入金额。该问题需要定位公司2025年年度报告、半年度报告或相关公告中的研发投入与研发人员披露数据，并注意区分“研发投入金额”“研发费用”以及“研发人员数量”等口径。\n\n**研究策略**: 优先检索中航成飞2025年年度报告和半年度报告，以公司官方披露为第一数据源；其次通过股票代码、研发费用、研发人员等关键词交叉验证财经平台和公告信息；最后用本地知识库补充已有资料。回答时需明确数据口径和来源，若2025年年报尚未披露，应说明可获取的最新报告期数据。", "confidence": 0.9}
+
+data: {"type": "plan", "understanding": "用户想了解中航成飞（通常指中航成飞股份有限公司，证券代码300114）在2025年的研发人员数量和研发投入金额。该问题需要定位公司2025年年度报告、半年度报告或相关公告中的研发投入与研发人员披露数据，并注意区分“研发投入金额”“研发费用”以及“研发人员数量”等口径。", "strategy": "优先检索中航成飞2025年年度报告和半年度报告，以公司官方披露为第一数据源；其次通过股票代码、研发费用、研发人员等关键词交叉验证财经平台和公告信息；最后用本地知识库补充已有资料。回答时需明确数据口径和来源，若2025年年报尚未披露，应说明可获取的最新报告期数据。", "sub_queries": [{"query": "中航成飞 2025年年报 研发人员数量 研发投入金额", "purpose": "直接查找2025年年报中研发人员数量和研发投入金额的披露数据", "tool": "web_search"}, {"query": "中航成飞股份有限公司 2025年度报告 研发投入 研发人员", "purpose": "定位公司官方年度报告全文，核对研发投入和研发人员统计口径", "tool": "web_search"}, {"query": "中航成飞 300114 2025 研发费用 研发人员", "purpose": "通过股票代码和财务关键词查找2025年研发费用及研发人员相关数据", "tool": "web_search"}, {"query": "中航成飞 2025年半年度报告 研发投入 研发人员", "purpose": "若2025年年报尚未披露或数据不全，补充查找2025年半年报中的研发数据", "tool": "web_search"}, {"query": "中航成飞 研发人员数量 研发投入 2025 公告", "purpose": "查找公司公告、投资者关系记录或财经平台汇总的2025年研发数据", "tool": "web_search"}, {"query": "中航成飞 2025 研发投入 研发人员 年报", "purpose": "在本地知识库中检索是否已有中航成飞2025年研发相关披露信息", "tool": "knowledge_search"}], "expected_aspects": ["中航成飞2025年研发人员数量", "中航成飞2025年研发投入金额", "研发投入与研发费用的口径差异", "数据来源是否为2025年年报或半年报", "公司官方公告与财经平台数据的一致性"]}
+
+data: {"type": "action", "step": 1, "tool": "parallel_search", "params": {"queries": ["中航成飞 2025年年报 研发人员数量 研发投入金额", "中航成飞股份有限公司 2025年度报告 研发投入 研发人员", "中航成飞 300114 2025 研发费用 研发人员", "中航成飞 2025年半年度报告 研发投入 研发人员", "中航成飞 研发人员数量 研发投入 2025 公告", "中航成飞 2025 研发投入 研发人员 年报"]}}
+
+data: {"type": "search_result_item", "result": {"url": "local://all/b5655f62427ec0232490e64a1691f27e", "name": "CF-2025-ANNUAL-SUMMARY.pdf", "summary": "# 证券代码：302132               证券简称：中航成飞              公告编号：2026-009  \n\n\n# 中航成飞股份有限公司 2025年年度报告摘要  \n\n\n# 一、重要提示  \n\n\n本年度报告摘要来自年度报告全文，为全面了解本公司的经营成果、财务状况及未来发展规划，投资者应当到证监会指定媒体仔细阅读年度报告全文。  \n\n\n所有董事均已出席了审议本报告的董事会会议。  \n\n\n大信会计师事务所（特殊普通合伙）对本年度公司财务报告的审计意见为：标准的无保留意见。  \n\n\n非标准审计意见提示  \n\n\n□适用 口不适用  \n\n\n公司上市时未盈利且目前未实现盈利  \n\n\n□适用 🟥不适用  \n\n\n董事会审议的报告期利润分配预案或公积金转增股本预案  \n\n\n口适用 □不适用  \n\n\n公司经本次董事会审议通过的利润分配预案为：以公司总股本 267,209.14万为基数，向全体股东每 10股派发现金红利 3.86元（含税），送红股 0股（含税），以资本公积金向全体股东每 10股转增 0股。", "snippet": "# 证券代码：302132               证券简称：中航成飞              公告编号：2026-009  \n\n\n# 中航成飞股份有限公司 2025年年度报告摘要  \n\n\n# 一、重要提示  \n\n\n本年度报告摘要来自年度报告全文，为全面了解本公司的经营成果、财务状况及未来发展规划，投资者应当到证监会指定媒体仔细阅读年度报告全文。  \n\n\n所有董事均已出席了审议本报告的董事会", "siteName": "知识库: all", "siteIcon": "", "source": "local"}}
+
+data: {"type": "search_result_item", "result": {"url": "local://all/b5655f62427ec0232490e64a1691f27e", "name": "CF-2025-ANNUAL-SUMMARY.pdf", "summary": "派发现金红利 3.86元（含税），送红股 0股（含税），以资本公积金向全体股东每 10股转增 0股。  \n\n\n董事会决议通过的本报告期优先股利润分配预案  \n\n\n□适用 ☑不适用  \n\n\n# 二、公司基本情况  \n\n\n# 1、公司简介  \n\n\n| 股票简称|中航成飞|股票代码|302132|\n| ---|---|---|---|\n| 股票上市交易所|深圳证券交易所|深圳证券交易所|深圳证券交易所|\n| 联系人和联系方式|董事会秘书|证券事务代表|证券事务代表|\n| 姓名|肖峰|解晗|解晗|\n| 办公地址|四川省成都市青羊区黄田坝纬一路 88号|四川省成都市青羊区黄田坝纬一路 88号|四川省成都市青羊区黄田坝纬一路 88号|\n| 传真|028-87406789|028-87406789|028-87406789|\n| 电话|028-87408132|028-87406789|028-87406789|\n| 电子信箱|cac-ir@avic.com|cac-ir@avic.com|cac-ir@avic.", "snippet": "派发现金红利 3.86元（含税），送红股 0股（含税），以资本公积金向全体股东每 10股转增 0股。  \n\n\n董事会决议通过的本报告期优先股利润分配预案  \n\n\n□适用 ☑不适用  \n\n\n# 二、公司基本情况  \n\n\n# 1、公司简介  \n\n\n| 股票简称|中航成飞|股票代码|302132|\n| ---|---|---|---|\n| 股票上市交易所|深圳证券交易所|深圳证券交易所|深圳证券交易所|", "siteName": "知识库: all", "siteIcon": "", "source": "local"}}
+
+data: {"type": "search_result_item", "result": {"url": "local://all/b5655f62427ec0232490e64a1691f27e", "name": "CF-2025-ANNUAL-SUMMARY.pdf", "summary": "电子信箱|cac-ir@avic.com|cac-ir@avic.com|cac-ir@avic.com|  \n\n\n# 2、报告期主要业务或产品简介  \n\n\n报告期内，公司主营业务为航空产品研发、制造、销售、维修与服务保障，主要产品包括航空防务装备、民用航空产品和智能测控产品。  \n\n\n# 3、主要会计数据和财务指标  \n\n\n# （1）近三年主要会计数据和财务指标  \n\n\n公司是否需追溯调整或重述以前年度会计数据  \n\n\n口是 □否  \n\n\n追溯调整或重述原因  \n\n\n同一控制下企业合并  \n\n\n元  \n\n\n| |2025年末|2024年末|2024年末|本年末比上年末增减|2023年末|2023年末|\n| ---|---|---|---|---|---|---|\n| |2025年末|调整前|调整后|调整后|调整前|调整后|\n| 总资产|114,547,703,019.42|4,240,904,10<br>7.27|107,905,965,442.13|6.16%|3,974,910,72<br>8.94|127,681,276,<br>927.", "snippet": "电子信箱|cac-ir@avic.com|cac-ir@avic.com|cac-ir@avic.com|  \n\n\n# 2、报告期主要业务或产品简介  \n\n\n报告期内，公司主营业务为航空产品研发、制造、销售、维修与服务保障，主要产品包括航空防务装备、民用航空产品和智能测控产品。  \n\n\n# 3、主要会计数据和财务指标  \n\n\n# （1）近三年主要会计数据和财务指标  \n\n\n公司是否需追溯调整或重述", "siteName": "知识库: all", "siteIcon": "", "source": "local"}}
+
+data: {"type": "search_result_item", "result": {"url": "local://all/b5655f62427ec0232490e64a1691f27e", "name": "CF-2025-ANNUAL-SUMMARY.pdf", "summary": "量|数量|数量|\n| 中国航空工业集团有限公司|国有法人|78.66%|2,101,738,612.00|2,086,021,877.00|2,086,021,877.00|不适用|2,101,738,612.00|2,101,738,612.00|2,101,738,612.00|\n| 汉中汉航机电有限公司|国有法人|5.75%|153,597,730.00|0.00|0.00|不适用|153,597,730.00|153,597,730.00|153,597,730.00|\n| 汉中航空工业（集团）有限公司|国有法人|5.29%|141,442,953.00|0.00|0.00|不适用|141,442,953.00|141,442,953.00|141,442,953.00|\n| 方威|境内自然人|0.38%|10,088,748.00|0.00|0.00|不适用|10,088,748.00|10,088,748.00|10,088,748.00|\n| 中国航空科技工业股份有限公司|国有法人|0.26%|7,043,584.00|0.00|0.00|不适用|7,043,584.", "snippet": "量|数量|数量|\n| 中国航空工业集团有限公司|国有法人|78.66%|2,101,738,612.00|2,086,021,877.00|2,086,021,877.00|不适用|2,101,738,612.00|2,101,738,612.00|2,101,738,612.00|\n| 汉中汉航机电有限公司|国有法人|5.75%|153,597,730.00|0.00|0.00|不适用|153,", "siteName": "知识库: all", "siteIcon": "", "source": "local"}}
+
+data: {"type": "search_result_item", "result": {"url": "local://all/b5655f62427ec0232490e64a1691f27e", "name": "CF-2025-ANNUAL-SUMMARY.pdf", "summary": "的实际控制人同为中国航空工业集团有限公司；未知其他股东之间是否存在关联关系或属于一致行动<br>人。|汉中汉航机电有限公司、汉中航空工业（集团）有限公司和中国航空科技工业股份有限公司的实际控制人同为中国航空工业集团有限公司；未知其他股东之间是否存在关联关系或属于一致行动<br>人。|汉中汉航机电有限公司、汉中航空工业（集团）有限公司和中国航空科技工业股份有限公司的实际控制人同为中国航空工业集团有限公司；未知其他股东之间是否存在关联关系或属于一致行动<br>人。|汉中汉航机电有限公司、汉中航空工业（集团）有限公司和中国航空科技工业股份有限公司的实际控制人同为中国航空工业集团有限公司；未知其他股东之间是否存在关联关系或属于一致行动<br>人。", "snippet": "的实际控制人同为中国航空工业集团有限公司；未知其他股东之间是否存在关联关系或属于一致行动<br>人。|汉中汉航机电有限公司、汉中航空工业（集团）有限公司和中国航空科技工业股份有限公司的实际控制人同为中国航空工业集团有限公司；未知其他股东之间是否存在关联关系或属于一致行动<br>人。|汉中汉航机电有限公司、汉中航空工业（集团）有限公司和中国航空科技工业股份有限公司的实际控制人同为中国航空工业集团有限", "siteName": "知识库: all", "siteIcon": "", "source": "local"}}
+
+data: {"type": "observation", "step": 1, "tool": "parallel_search", "success": true, "result": "并行搜索完成，共获取 5 条结果", "queries_executed": ["中航成飞 2025年年报 研发人员数量 研发投入金额", "中航成飞股份有限公司 2025年度报告 研发投入 研发人员", "中航成飞 300114 2025 研发费用 研发人员", "中航成飞 2025年半年度报告 研发投入 研发人员", "中航成飞 研发人员数量 研发投入 2025 公告", "中航成飞 2025 研发投入 研发人员 年报"]}
+
+data: {"type": "thought", "step": 2, "content": "**信息评估**: 当前已收集信息仅来自《中航成飞股份有限公司2025年年度报告摘要》的片段，内容涉及公司简介、主要业务、股东情况等，但未包含研发人员数量和研发投入金额的具体数据。研究计划中预期的研发人员数量、研发投入金额、研发投入与研发费用口径差异、数据来源确认以及官方公告与财经平台数据一致性等关键方面均未覆盖。因此，现有信息不足以回答用户问题。", "confidence": 0.9}
+
+data: {"type": "action", "step": 3, "tool": "parallel_search", "params": {"queries": ["中航成飞 2025年年度报告 全文 研发人员数量 研发投入金额", "中航成飞 302132 2025 研发费用 研发人员 人数 公告", "中航成飞 2025 研发投入 研发费用 口径 差异"]}}
+
+data: {"type": "observation", "step": 3, "tool": "parallel_search", "success": true, "result": "并行搜索完成，共获取 0 条结果", "queries_executed": ["中航成飞 2025年年度报告 全文 研发人员数量 研发投入金额", "中航成飞 302132 2025 研发费用 研发人员 人数 公告", "中航成飞 2025 研发投入 研发费用 口径 差异"]}
+
+data: {"type": "thought", "step": 4, "content": "**信息评估**: 当前已收集的信息仅来自2025年年度报告摘要，内容涵盖公司简介、主要业务、股东结构等，但未包含研发人员数量和研发投入金额的具体数据。研究计划中预期的研发人员数量、研发投入金额、口径差异、数据来源确认以及官方与财经平台一致性等关键方面均未覆盖。因此，现有信息不足以回答用户问题。", "confidence": 0.9}
+
+data: {"type": "action", "step": 5, "tool": "parallel_search", "params": {"queries": ["中航成飞 2025年年度报告 全文 研发人员数量 研发投入金额", "中航成飞 302132 2025 研发费用 研发人员 人数 年报", "中航成飞 2025 研发投入 研发费用 口径 差异 年报"]}}
+
+data: {"type": "observation", "step": 5, "tool": "parallel_search", "success": true, "result": "并行搜索完成，共获取 0 条结果", "queries_executed": ["中航成飞 2025年年度报告 全文 研发人员数量 研发投入金额", "中航成飞 302132 2025 研发费用 研发人员 人数 年报", "中航成飞 2025 研发投入 研发费用 口径 差异 年报"]}
+
+data: {"type": "status", "content": "开始生成最终报告..."}
+
+data: {"type": "reference_materials", "content": [{"url": "local://all/b5655f62427ec0232490e64a1691f27e", "name": "CF-2025-ANNUAL-SUMMARY.pdf", "summary": "# 证券代码：302132               证券简称：中航成飞              公告编号：2026-009  \n\n\n# 中航成飞股份有限公司 2025年年度报告摘要  \n\n\n# 一、重要提示  \n\n\n本年度报告摘要来自年度报告全文，为全面了解本公司的经营成果、财务状况及未来发展规划，投资者应当到证监会指定媒体仔细阅读年度报告全文。  \n\n\n所有董事均已出席了审议本报告的董事会会议。  \n\n\n大信会计师事务所（特殊普通合伙）对本年度公司财务报告的审计意见为：标准的无保留意见。  \n\n\n非标准审计意见提示  \n\n\n□适用 口不适用  \n\n\n公司上市时未盈利且目前未实现盈利  \n\n\n□适用 🟥不适用  \n\n\n董事会审议的报告期利润分配预案或公积金转增股本预案  \n\n\n口适用 □不适用  \n\n\n公司经本次董事会审议通过的利润分配预案为：以公司总股本 267,209.14万为基数，向全体股东每 10股派发现金红利 3.86元（含税），送红股 0股（含税），以资本公积金向全体股东每 10股转增 0股。", "snippet": "# 证券代码：302132               证券简称：中航成飞              公告编号：2026-009  \n\n\n# 中航成飞股份有限公司 2025年年度报告摘要  \n\n\n# 一、重要提示  \n\n\n本年度报告摘要来自年度报告全文，为全面了解本公司的经营成果、财务状况及未来发展规划，投资者应当到证监会指定媒体仔细阅读年度报告全文。  \n\n\n所有董事均已出席了审议本报告的董事会", "siteName": "知识库: all", "siteIcon": "", "source": "local", "reference_id": 1}, {"url": "local://all/b5655f62427ec0232490e64a1691f27e", "name": "CF-2025-ANNUAL-SUMMARY.pdf", "summary": "派发现金红利 3.86元（含税），送红股 0股（含税），以资本公积金向全体股东每 10股转增 0股。  \n\n\n董事会决议通过的本报告期优先股利润分配预案  \n\n\n□适用 ☑不适用  \n\n\n# 二、公司基本情况  \n\n\n# 1、公司简介  \n\n\n| 股票简称|中航成飞|股票代码|302132|\n| ---|---|---|---|\n| 股票上市交易所|深圳证券交易所|深圳证券交易所|深圳证券交易所|\n| 联系人和联系方式|董事会秘书|证券事务代表|证券事务代表|\n| 姓名|肖峰|解晗|解晗|\n| 办公地址|四川省成都市青羊区黄田坝纬一路 88号|四川省成都市青羊区黄田坝纬一路 88号|四川省成都市青羊区黄田坝纬一路 88号|\n| 传真|028-87406789|028-87406789|028-87406789|\n| 电话|028-87408132|028-87406789|028-87406789|\n| 电子信箱|cac-ir@avic.com|cac-ir@avic.com|cac-ir@avic.", "snippet": "派发现金红利 3.86元（含税），送红股 0股（含税），以资本公积金向全体股东每 10股转增 0股。  \n\n\n董事会决议通过的本报告期优先股利润分配预案  \n\n\n□适用 ☑不适用  \n\n\n# 二、公司基本情况  \n\n\n# 1、公司简介  \n\n\n| 股票简称|中航成飞|股票代码|302132|\n| ---|---|---|---|\n| 股票上市交易所|深圳证券交易所|深圳证券交易所|深圳证券交易所|", "siteName": "知识库: all", "siteIcon": "", "source": "local", "reference_id": 2}, {"url": "local://all/b5655f62427ec0232490e64a1691f27e", "name": "CF-2025-ANNUAL-SUMMARY.pdf", "summary": "电子信箱|cac-ir@avic.com|cac-ir@avic.com|cac-ir@avic.com|  \n\n\n# 2、报告期主要业务或产品简介  \n\n\n报告期内，公司主营业务为航空产品研发、制造、销售、维修与服务保障，主要产品包括航空防务装备、民用航空产品和智能测控产品。  \n\n\n# 3、主要会计数据和财务指标  \n\n\n# （1）近三年主要会计数据和财务指标  \n\n\n公司是否需追溯调整或重述以前年度会计数据  \n\n\n口是 □否  \n\n\n追溯调整或重述原因  \n\n\n同一控制下企业合并  \n\n\n元  \n\n\n| |2025年末|2024年末|2024年末|本年末比上年末增减|2023年末|2023年末|\n| ---|---|---|---|---|---|---|\n| |2025年末|调整前|调整后|调整后|调整前|调整后|\n| 总资产|114,547,703,019.42|4,240,904,10<br>7.27|107,905,965,442.13|6.16%|3,974,910,72<br>8.94|127,681,276,<br>927.", "snippet": "电子信箱|cac-ir@avic.com|cac-ir@avic.com|cac-ir@avic.com|  \n\n\n# 2、报告期主要业务或产品简介  \n\n\n报告期内，公司主营业务为航空产品研发、制造、销售、维修与服务保障，主要产品包括航空防务装备、民用航空产品和智能测控产品。  \n\n\n# 3、主要会计数据和财务指标  \n\n\n# （1）近三年主要会计数据和财务指标  \n\n\n公司是否需追溯调整或重述", "siteName": "知识库: all", "siteIcon": "", "source": "local", "reference_id": 3}, {"url": "local://all/b5655f62427ec0232490e64a1691f27e", "name": "CF-2025-ANNUAL-SUMMARY.pdf", "summary": "量|数量|数量|\n| 中国航空工业集团有限公司|国有法人|78.66%|2,101,738,612.00|2,086,021,877.00|2,086,021,877.00|不适用|2,101,738,612.00|2,101,738,612.00|2,101,738,612.00|\n| 汉中汉航机电有限公司|国有法人|5.75%|153,597,730.00|0.00|0.00|不适用|153,597,730.00|153,597,730.00|153,597,730.00|\n| 汉中航空工业（集团）有限公司|国有法人|5.29%|141,442,953.00|0.00|0.00|不适用|141,442,953.00|141,442,953.00|141,442,953.00|\n| 方威|境内自然人|0.38%|10,088,748.00|0.00|0.00|不适用|10,088,748.00|10,088,748.00|10,088,748.00|\n| 中国航空科技工业股份有限公司|国有法人|0.26%|7,043,584.00|0.00|0.00|不适用|7,043,584.", "snippet": "量|数量|数量|\n| 中国航空工业集团有限公司|国有法人|78.66%|2,101,738,612.00|2,086,021,877.00|2,086,021,877.00|不适用|2,101,738,612.00|2,101,738,612.00|2,101,738,612.00|\n| 汉中汉航机电有限公司|国有法人|5.75%|153,597,730.00|0.00|0.00|不适用|153,", "siteName": "知识库: all", "siteIcon": "", "source": "local", "reference_id": 4}, {"url": "local://all/b5655f62427ec0232490e64a1691f27e", "name": "CF-2025-ANNUAL-SUMMARY.pdf", "summary": "的实际控制人同为中国航空工业集团有限公司；未知其他股东之间是否存在关联关系或属于一致行动<br>人。|汉中汉航机电有限公司、汉中航空工业（集团）有限公司和中国航空科技工业股份有限公司的实际控制人同为中国航空工业集团有限公司；未知其他股东之间是否存在关联关系或属于一致行动<br>人。|汉中汉航机电有限公司、汉中航空工业（集团）有限公司和中国航空科技工业股份有限公司的实际控制人同为中国航空工业集团有限公司；未知其他股东之间是否存在关联关系或属于一致行动<br>人。|汉中汉航机电有限公司、汉中航空工业（集团）有限公司和中国航空科技工业股份有限公司的实际控制人同为中国航空工业集团有限公司；未知其他股东之间是否存在关联关系或属于一致行动<br>人。", "snippet": "的实际控制人同为中国航空工业集团有限公司；未知其他股东之间是否存在关联关系或属于一致行动<br>人。|汉中汉航机电有限公司、汉中航空工业（集团）有限公司和中国航空科技工业股份有限公司的实际控制人同为中国航空工业集团有限公司；未知其他股东之间是否存在关联关系或属于一致行动<br>人。|汉中汉航机电有限公司、汉中航空工业（集团）有限公司和中国航空科技工业股份有限公司的实际控制人同为中国航空工业集团有限", "siteName": "知识库: all", "siteIcon": "", "source": "local", "reference_id": 5}]}
+
+data: {"type": "thinking_start"}
+
+data: {"type": "thinking", "content": "用户"}
+
+data: {"type": "thinking", "content": "想知道"}
+
+data: {"type": "thinking", "content": "中航成"}
+
+data: {"type": "thinking", "content": "飞2025年的研发人员"}
+
+data: {"type": "thinking", "content": "数量和研发投入金额"}
+
+data: {"type": "thinking", "content": "。让我"}
+
+data: {"type": "thinking", "content": "检查"}
+
+data: {"type": "thinking", "content": "提供的资料"}
+
+data: {"type": "thinking", "content": "。\n\n这些资料"}
+
+data: {"type": "thinking", "content": "来自"}
+
+data: {"type": "thinking", "content": "中航成飞2025"}
+
+data: {"type": "thinking", "content": "年年度报告摘要"}
+
+data: {"type": "thinking", "content": "。它们涵盖"}
+
+data: {"type": "thinking", "content": "：\n- 公司基本信息"}
+
+data: {"type": "thinking", "content": "\n- 主要"}
+
+data: {"type": "thinking", "content": "业务\n- 会计"}
+
+data: {"type": "thinking", "content": "数据和财务指标\n- "}
+
+data: {"type": "thinking", "content": "股东信息"}
+
+data: {"type": "thinking", "content": "\n\n我没有"}
+
+data: {"type": "thinking", "content": "看到任何关于"}
+
+data: {"type": "thinking", "content": "研发人员数量或研发投入"}
+
+data: {"type": "thinking", "content": "金额的信息"}
+
+data: {"type": "thinking", "content": "。让我再仔细核对"}
+
+data: {"type": "thinking", "content": "一遍"}
+
+data: {"type": "thinking", "content": "。\n\n引用"}
+
+data: {"type": "thinking", "content": "1：证券"}
+
+data: {"type": "thinking", "content": "代码、公告"}
+
+data: {"type": "thinking", "content": "编号"}
+
+data: {"type": "thinking", "content": "、报告标题"}
+
+data: {"type": "thinking", "content": "、董事会提示、审计"}
+
+data: {"type": "thinking", "content": "意见、利润"}
+
+data: {"type": "thinking", "content": "分配预案\n引用"}
+
+data: {"type": "thinking", "content": "2：利润"}
+
+data: {"type": "thinking", "content": "分配、优先"}
+
+data: {"type": "thinking", "content": "股、公司简介\n引用3：主营业务、"}
+
+data: {"type": "thinking", "content": "会计"}
+
+data: {"type": "thinking", "content": "数据"}
+
+data: {"type": "thinking", "content": "（总"}
+
+data: {"type": "thinking", "content": "资产）\n引用4：股东"}
+
+data: {"type": "thinking", "content": "信息\n引用5：股东"}
+
+data: {"type": "thinking", "content": "关联"}
+
+data: {"type": "thinking", "content": "关系\n\n这些都没有"}
+
+data: {"type": "thinking", "content": "提到"}
+
+data: {"type": "thinking", "content": "研发人员数量或研发投入"}
+
+data: {"type": "thinking", "content": "金额。\n\n所以资料"}
+
+data: {"type": "thinking", "content": "不足以回答"}
+
+data: {"type": "thinking", "content": "该"}
+
+data: {"type": "thinking", "content": "问题。我需要"}
+
+data: {"type": "thinking", "content": "说明这一点。\n\n但等等"}
+
+data: {"type": "thinking", "content": "——报告"}
+
+data: {"type": "thinking", "content": "摘要"}
+
+data: {"type": "thinking", "content": "可能没有"}
+
+data: {"type": "thinking", "content": "包含这些细节"}
+
+data: {"type": "thinking", "content": "，但完整的"}
+
+data: {"type": "thinking", "content": "年度报告"}
+
+data: {"type": "thinking", "content": "可能有"}
+
+data: {"type": "thinking", "content": "。根据"}
+
+data: {"type": "thinking", "content": "资料"}
+
+data: {"type": "thinking", "content": "，我只能"}
+
+data: {"type": "thinking", "content": "说明"}
+
+data: {"type": "thinking", "content": "所"}
+
+data: {"type": "thinking", "content": "提供的信息没有"}
+
+data: {"type": "thinking", "content": "披露这些"}
+
+data: {"type": "thinking", "content": "数字"}
+
+data: {"type": "thinking", "content": "。\n\n让我"}
+
+data: {"type": "thinking", "content": "写一份清晰、"}
+
+data: {"type": "thinking", "content": "结构"}
+
+data: {"type": "thinking", "content": "化的报告，说明数据不足"}
+
+data: {"type": "thinking", "content": "。"}
+
+data: {"type": "thinking_end"}
+
+data: {"type": "answer_start"}
+
+data: {"type": "answer", "content": "# 中"}
+
+data: {"type": "answer", "content": "航成"}
+
+data: {"type": "answer", "content": "飞2025年研发人员"}
+
+data: {"type": "answer", "content": "数量与研发投入"}
+
+data: {"type": "answer", "content": "金额研究报告\n\n## 一"}
+
+data: {"type": "answer", "content": "、问题概述"}
+
+data: {"type": "answer", "content": "\n\n本"}
+
+data: {"type": "answer", "content": "报告旨在回答"}
+
+data: {"type": "answer", "content": "用户原始"}
+
+data: {"type": "answer", "content": "问题："}
+
+data: {"type": "answer", "content": "**中航成飞202"}
+
+data: {"type": "answer", "content": "5年研发人员数量和"}
+
+data: {"type": "answer", "content": "研发投入金额分别是多少？"}
+
+data: {"type": "answer", "content": "**\n\n## 二、信息"}
+
+data: {"type": "answer", "content": "检索结果\n\n本次"}
+
+data: {"type": "answer", "content": "分析"}
+
+data: {"type": "answer", "content": "所依据的信息"}
+
+data: {"type": "answer", "content": "来源"}
+
+data: {"type": "answer", "content": "为"}
+
+data: {"type": "answer", "content": "《"}
+
+data: {"type": "answer", "content": "中航成飞股份有限公司 "}
+
+data: {"type": "answer", "content": "2025年"}
+
+data: {"type": "answer", "content": "年度报告摘要》（公告"}
+
+data: {"type": "answer", "content": "编号：202"}
+
+data: {"type": "answer", "content": "6-009，证券"}
+
+data: {"type": "answer", "content": "代码：302"}
+
+data: {"type": "answer", "content": "132）"}
+
+data: {"type": "answer", "content": "##1"}
+
+data: {"type": "answer", "content": "$$"}
+
+data: {"type": "answer", "content": "。经"}
+
+data: {"type": "answer", "content": "逐项核查"}
+
+data: {"type": "answer", "content": "该"}
+
+data: {"type": "answer", "content": "摘要文件"}
+
+data: {"type": "answer", "content": "所含"}
+
+data: {"type": "answer", "content": "内容，检索"}
+
+data: {"type": "answer", "content": "范围"}
+
+data: {"type": "answer", "content": "包括以下"}
+
+data: {"type": "answer", "content": "部分：\n\n1"}
+
+data: {"type": "answer", "content": ". **重要"}
+
+data: {"type": "answer", "content": "提示与"}
+
+data: {"type": "answer", "content": "利润"}
+
+data: {"type": "answer", "content": "分配预案"}
+
+data: {"type": "answer", "content": "**："}
+
+data: {"type": "answer", "content": "涉及"}
+
+data: {"type": "answer", "content": "审计"}
+
+data: {"type": "answer", "content": "意见、董事会"}
+
+data: {"type": "answer", "content": "审议"}
+
+data: {"type": "answer", "content": "情况及"}
+
+data: {"type": "answer", "content": "现金"}
+
+data: {"type": "answer", "content": "分红方案 ##"}
+
+data: {"type": "answer", "content": "1$$ ##"}
+
+data: {"type": "answer", "content": "2$$"}
+
+data: {"type": "answer", "content": "；\n2. **公司基本情况"}
+
+data: {"type": "answer", "content": "**：包括股票"}
+
+data: {"type": "answer", "content": "简称、上市"}
+
+data: {"type": "answer", "content": "交易所、联系人及联系方式等"}
+
+data: {"type": "answer", "content": " ##2"}
+
+data: {"type": "answer", "content": "$$；\n3. **报告"}
+
+data: {"type": "answer", "content": "期"}
+
+data: {"type": "answer", "content": "主要业务或"}
+
+data: {"type": "answer", "content": "产品简介**：公司主营业务"}
+
+data: {"type": "answer", "content": "为航空产品"}
+
+data: {"type": "answer", "content": "研发、制造、销售"}
+
+data: {"type": "answer", "content": "、维修与服务"}
+
+data: {"type": "answer", "content": "保障，主要"}
+
+data: {"type": "answer", "content": "产品包括航空防"}
+
+data: {"type": "answer", "content": "务装备、民用航空产品和"}
+
+data: {"type": "answer", "content": "智能测控产品 ##3"}
+
+data: {"type": "answer", "content": "$$"}
+
+data: {"type": "answer", "content": "；\n4. **主要会计"}
+
+data: {"type": "answer", "content": "数据和财务指标**：包括"}
+
+data: {"type": "answer", "content": "总资产等"}
+
+data: {"type": "answer", "content": "近三年财务数据"}
+
+data: {"type": "answer", "content": " ##3"}
+
+data: {"type": "answer", "content": "$$；\n5. **股东"}
+
+data: {"type": "answer", "content": "信息"}
+
+data: {"type": "answer", "content": "**：前"}
+
+data: {"type": "answer", "content": "十大"}
+
+data: {"type": "answer", "content": "股东持股"}
+
+data: {"type": "answer", "content": "情况及"}
+
+data: {"type": "answer", "content": "关联"}
+
+data: {"type": "answer", "content": "关系说明"}
+
+data: {"type": "answer", "content": " ##4$$ ##"}
+
+data: {"type": "answer", "content": "5$$。\n\n## 三"}
+
+data: {"type": "answer", "content": "、关键"}
+
+data: {"type": "answer", "content": "发现\n\n### 3"}
+
+data: {"type": "answer", "content": ".1 研发人员数量"}
+
+data: {"type": "answer", "content": "\n\n在所"}
+
+data: {"type": "answer", "content": "提供的信息中"}
+
+data: {"type": "answer", "content": "，**未包含任何关于"}
+
+data: {"type": "answer", "content": "研发人员数量的"}
+
+data: {"type": "answer", "content": "披露**。年度"}
+
+data: {"type": "answer", "content": "报告摘要的\""}
+
+data: {"type": "answer", "content": "公司基本情况"}
+
+data: {"type": "answer", "content": "\"\""}
+
+data: {"type": "answer", "content": "主要业务"}
+
+data: {"type": "answer", "content": "或"}
+
+data: {"type": "answer", "content": "产品简介\""}
+
+data: {"type": "answer", "content": "及\""}
+
+data: {"type": "answer", "content": "主要会计数据和财务指标"}
+
+data: {"type": "answer", "content": "\"等章节"}
+
+data: {"type": "answer", "content": "中，均未出现"}
+
+data: {"type": "answer", "content": "研发"}
+
+data: {"type": "answer", "content": "人员规模"}
+
+data: {"type": "answer", "content": "、研发人员占比"}
+
+data: {"type": "answer", "content": "等相关表述"}
+
+data: {"type": "answer", "content": " ##1$$"}
+
+data: {"type": "answer", "content": " ##2$$ ##3$$"}
+
+data: {"type": "answer", "content": "。\n\n### 3"}
+
+data: {"type": "answer", "content": ".2 研发投入金额"}
+
+data: {"type": "answer", "content": "\n\n在所"}
+
+data: {"type": "answer", "content": "提供的信息中，**同样"}
+
+data: {"type": "answer", "content": "未包含任何关于研发投入"}
+
+data: {"type": "answer", "content": "金额的披露**。摘要"}
+
+data: {"type": "answer", "content": "中的"}
+
+data: {"type": "answer", "content": "财务"}
+
+data: {"type": "answer", "content": "数据部分"}
+
+data: {"type": "answer", "content": "仅呈现"}
+
+data: {"type": "answer", "content": "了总资产等"}
+
+data: {"type": "answer", "content": "指标"}
+
+data: {"type": "answer", "content": " ##"}
+
+data: {"type": "answer", "content": "3$$，"}
+
+data: {"type": "answer", "content": "未涉及研发费用"}
+
+data: {"type": "answer", "content": "、研发投入"}
+
+data: {"type": "answer", "content": "总额"}
+
+data: {"type": "answer", "content": "或研发投入占"}
+
+data: {"type": "answer", "content": "营业收入比例等数据。\n\n##"}
+
+data: {"type": "answer", "content": " 四"}
+
+data: {"type": "answer", "content": "、结论与说明"}
+
+data: {"type": "answer", "content": "\n\n**"}
+
+data: {"type": "answer", "content": "基于当前"}
+
+data: {"type": "answer", "content": "收集"}
+
+data: {"type": "answer", "content": "到的信息，无法回答"}
+
+data: {"type": "answer", "content": "\""}
+
+data: {"type": "answer", "content": "中航成"}
+
+data: {"type": "answer", "content": "飞2025年研发人员"}
+
+data: {"type": "answer", "content": "数量和研发投入金额\"这一问题"}
+
+data: {"type": "answer", "content": "。** 具体"}
+
+data: {"type": "answer", "content": "原因如下：\n\n- "}
+
+data: {"type": "answer", "content": "所提供的信息全部"}
+
+data: {"type": "answer", "content": "来源于"}
+
+data: {"type": "answer", "content": "《2025年"}
+
+data: {"type": "answer", "content": "年度报告摘要》，"}
+
+data: {"type": "answer", "content": "该摘要侧重于"}
+
+data: {"type": "answer", "content": "公司基本情况"}
+
+data: {"type": "answer", "content": "、利润分配预案"}
+
+data: {"type": "answer", "content": "、主要会计数据及股东"}
+
+data: {"type": "answer", "content": "信息等概要"}
+
+data: {"type": "answer", "content": "性内容 ##"}
+
+data: {"type": "answer", "content": "1$$"}
+
+data: {"type": "answer", "content": " ##2$$ ##4$$"}
+
+data: {"type": "answer", "content": "，按照"}
+
+data: {"type": "answer", "content": "信息披露"}
+
+data: {"type": "answer", "content": "惯例，研发人员数量"}
+
+data: {"type": "answer", "content": "、研发投入金额等详细"}
+
+data: {"type": "answer", "content": "经营"}
+
+data: {"type": "answer", "content": "数据"}
+
+data: {"type": "answer", "content": "通常"}
+
+data: {"type": "answer", "content": "披露于**年度"}
+
+data: {"type": "answer", "content": "报告全文**的"}
+
+data: {"type": "answer", "content": "\"管理层"}
+
+data: {"type": "answer", "content": "讨论与分析\"或\""}
+
+data: {"type": "answer", "content": "研发投入\"章节中，"}
+
+data: {"type": "answer", "content": "而本次"}
+
+data: {"type": "answer", "content": "收集的信息"}
+
+data: {"type": "answer", "content": "未"}
+
+data: {"type": "answer", "content": "涵盖"}
+
+data: {"type": "answer", "content": "该部分内容"}
+
+data: {"type": "answer", "content": "。\n- 信息中"}
+
+data: {"type": "answer", "content": "不存在"}
+
+data: {"type": "answer", "content": "关于"}
+
+data: {"type": "answer", "content": "上述"}
+
+data: {"type": "answer", "content": "两项"}
+
+data: {"type": "answer", "content": "指标的矛盾"}
+
+data: {"type": "answer", "content": "性"}
+
+data: {"type": "answer", "content": "表述，纯粹"}
+
+data: {"type": "answer", "content": "属于"}
+
+data: {"type": "answer", "content": "**信息缺失**的情况。\n\n"}
+
+data: {"type": "answer", "content": "## 五"}
+
+data: {"type": "answer", "content": "、建议\n\n如需获取"}
+
+data: {"type": "answer", "content": "中"}
+
+data: {"type": "answer", "content": "航成"}
+
+data: {"type": "answer", "content": "飞2025年研发人员"}
+
+data: {"type": "answer", "content": "数量及研发投入金额的"}
+
+data: {"type": "answer", "content": "准确数据，建议补充"}
+
+data: {"type": "answer", "content": "检索以下信息源"}
+
+data: {"type": "answer", "content": "：\n\n1. 《中"}
+
+data: {"type": "answer", "content": "航成飞股份有限公司"}
+
+data: {"type": "answer", "content": " "}
+
+data: {"type": "answer", "content": "2025年"}
+
+data: {"type": "answer", "content": "年度报告》**"}
+
+data: {"type": "answer", "content": "全文**（而非"}
+
+data: {"type": "answer", "content": "摘要），重点关注"}
+
+data: {"type": "answer", "content": "\"研发投入\"章节"}
+
+data: {"type": "answer", "content": "及\"员工"}
+
+data: {"type": "answer", "content": "情况\"章节；\n2."}
+
+data: {"type": "answer", "content": " 公司"}
+
+data: {"type": "answer", "content": "年度"}
+
+data: {"type": "answer", "content": "报告中\""}
+
+data: {"type": "answer", "content": "董事会"}
+
+data: {"type": "answer", "content": "报告"}
+
+data: {"type": "answer", "content": "\"或"}
+
+data: {"type": "answer", "content": "\"管理层讨论与分析\"部分"}
+
+data: {"type": "answer", "content": "关于研发创新"}
+
+data: {"type": "answer", "content": "活动的"}
+
+data: {"type": "answer", "content": "披露；\n3. 巨"}
+
+data: {"type": "answer", "content": "潮资讯网等"}
+
+data: {"type": "answer", "content": "证监会"}
+
+data: {"type": "answer", "content": "指定信息披露媒体"}
+
+data: {"type": "answer", "content": "上的"}
+
+data: {"type": "answer", "content": "公司"}
+
+data: {"type": "answer", "content": "公告"}
+
+data: {"type": "answer", "content": "原文 ##"}
+
+data: {"type": "answer", "content": "1$$"}
+
+data: {"type": "answer", "content": "。\n\n---\n\n**报告"}
+
+data: {"type": "answer", "content": "声明"}
+
+data: {"type": "answer", "content": "**"}
+
+data: {"type": "answer", "content": "：本报告严格基于所提供的"}
+
+data: {"type": "answer", "content": "收集"}
+
+data: {"type": "answer", "content": "信息撰写，未引入"}
+
+data: {"type": "answer", "content": "任何外部知识"}
+
+data: {"type": "answer", "content": "。所引用"}
+
+data: {"type": "answer", "content": "内容"}
+
+data: {"type": "answer", "content": "均来自《"}
+
+data: {"type": "answer", "content": "中航成飞股份有限公司"}
+
+data: {"type": "answer", "content": " "}
+
+data: {"type": "answer", "content": "2025年年度报告摘要"}
+
+data: {"type": "answer", "content": "》##"}
+
+data: {"type": "answer", "content": "1$$ ##"}
+
+data: {"type": "answer", "content": "2$$ ##3$$"}
+
+data: {"type": "answer", "content": " ##4$$ ##5$$"}
+
+data: {"type": "answer", "content": "。"}
+
+data: {"type": "answer_end"}
+
+data: {"type": "complete"}
+

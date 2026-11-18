@@ -1,0 +1,221 @@
+{
+  "run_dir": "eval/traces/20261110-194435",
+  "ok": true,
+  "cases_passed": 6,
+  "cases_total": 6,
+  "metrics": {
+    "completed": {
+      "passed": 6,
+      "applicable": 6,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "no_fabrication": {
+      "passed": 6,
+      "applicable": 6,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "citations_real": {
+      "passed": 6,
+      "applicable": 6,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 6,
+      "applicable": 6,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "source_expected": {
+      "passed": 6,
+      "applicable": 6,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    },
+    "review_effective": {
+      "passed": 6,
+      "applicable": 6,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "facts_correct": {
+      "passed": 6,
+      "applicable": 6,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    }
+  },
+  "results": [
+    {
+      "id": "kb-revenue",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 662,
+      "report_chars": 8854,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 25
+      }
+    },
+    {
+      "id": "kb-net-profit",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 680,
+      "report_chars": 7830,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 20
+      }
+    },
+    {
+      "id": "kb-dividend",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 778,
+      "report_chars": 10218,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 20
+      }
+    },
+    {
+      "id": "kb-auditor",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 426,
+      "report_chars": 4910,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 10
+      }
+    },
+    {
+      "id": "kb-controlling-holder",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 613,
+      "report_chars": 9156,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "needs_revision",
+        "quality_score": 5,
+        "issues_count": 17
+      }
+    },
+    {
+      "id": "kb-quarterly",
+      "layer": "kb_fact",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": true,
+        "review_effective": true,
+        "facts_correct": true,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 581,
+      "report_chars": 9650,
+      "refs": 1,
+      "retrieved": 1,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 11
+      }
+    }
+  ]
+}

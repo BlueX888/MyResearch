@@ -1,0 +1,607 @@
+{
+  "run_dir": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-005407-final",
+  "ok": true,
+  "cases_passed": 21,
+  "cases_total": 21,
+  "metrics": {
+    "completed": {
+      "passed": 21,
+      "applicable": 21,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "no_fabrication": {
+      "passed": 21,
+      "applicable": 21,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "citations_real": {
+      "passed": 21,
+      "applicable": 21,
+      "rate": 1.0,
+      "gate": 0.95,
+      "ok": true
+    },
+    "mode_respected": {
+      "passed": 21,
+      "applicable": 21,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "review_effective": {
+      "passed": 18,
+      "applicable": 18,
+      "rate": 1.0,
+      "gate": 1.0,
+      "ok": true
+    },
+    "abstained": {
+      "passed": 4,
+      "applicable": 4,
+      "rate": 1.0,
+      "gate": null,
+      "ok": true
+    }
+  },
+  "results": [
+    {
+      "id": "avic-155-mainline",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 761,
+      "report_chars": 6641,
+      "refs": 18,
+      "retrieved": 134,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 3,
+        "issues_count": 2
+      }
+    },
+    {
+      "id": "avic-155-mainline",
+      "layer": "research",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 5377,
+      "refs": 51,
+      "retrieved": 51,
+      "review": null
+    },
+    {
+      "id": "avic-1336",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1196,
+      "report_chars": 12904,
+      "refs": 22,
+      "retrieved": 137,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 3,
+        "issues_count": 26
+      }
+    },
+    {
+      "id": "cf-sf-posture",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1156,
+      "report_chars": 11871,
+      "refs": 17,
+      "retrieved": 167,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 3,
+        "issues_count": 30
+      }
+    },
+    {
+      "id": "cf-sf-posture",
+      "layer": "research",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 4930,
+      "refs": 47,
+      "retrieved": 47,
+      "review": null
+    },
+    {
+      "id": "cf-sf-capital",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1308,
+      "report_chars": 12209,
+      "refs": 15,
+      "retrieved": 212,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 3,
+        "issues_count": 18
+      }
+    },
+    {
+      "id": "gen6-progress",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 999,
+      "report_chars": 11420,
+      "refs": 21,
+      "retrieved": 183,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 25
+      }
+    },
+    {
+      "id": "uav-layout",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1387,
+      "report_chars": 12076,
+      "refs": 15,
+      "retrieved": 224,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 16
+      }
+    },
+    {
+      "id": "carrier-fujian",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1031,
+      "report_chars": 10285,
+      "refs": 13,
+      "retrieved": 152,
+      "review": {
+        "verdict": "needs_revision",
+        "quality_score": 5,
+        "issues_count": 25
+      }
+    },
+    {
+      "id": "carrier-fujian",
+      "layer": "research",
+      "version": "v1",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": null,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": null,
+      "report_chars": 4329,
+      "refs": 41,
+      "retrieved": 41,
+      "review": null
+    },
+    {
+      "id": "carrier-lineup",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1050,
+      "report_chars": 12765,
+      "refs": 20,
+      "retrieved": 150,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 3,
+        "issues_count": 20
+      }
+    },
+    {
+      "id": "engine-substitution",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1393,
+      "report_chars": 12715,
+      "refs": 19,
+      "retrieved": 219,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 24
+      }
+    },
+    {
+      "id": "engine-ws15",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1003,
+      "report_chars": 12175,
+      "refs": 15,
+      "retrieved": 143,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 16
+      }
+    },
+    {
+      "id": "stealth-material-chain",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1068,
+      "report_chars": 12337,
+      "refs": 14,
+      "retrieved": 142,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 19
+      }
+    },
+    {
+      "id": "composite-3dprint",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1132,
+      "report_chars": 13129,
+      "refs": 20,
+      "retrieved": 133,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 30
+      }
+    },
+    {
+      "id": "export-j10ce",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 988,
+      "report_chars": 12434,
+      "refs": 19,
+      "retrieved": 162,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 25
+      }
+    },
+    {
+      "id": "pricing-reform",
+      "layer": "research",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": null
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 1089,
+      "report_chars": 12661,
+      "refs": 17,
+      "retrieved": 157,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 16
+      }
+    },
+    {
+      "id": "neg-j36-order",
+      "layer": "negative",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 686,
+      "report_chars": 12543,
+      "refs": 20,
+      "retrieved": 182,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 21
+      }
+    },
+    {
+      "id": "neg-cf-2028-plan",
+      "layer": "negative",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 881,
+      "report_chars": 12295,
+      "refs": 20,
+      "retrieved": 191,
+      "review": {
+        "verdict": "needs_revision",
+        "quality_score": 5,
+        "issues_count": 20
+      }
+    },
+    {
+      "id": "neg-export-secret",
+      "layer": "negative",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 973,
+      "report_chars": 13729,
+      "refs": 20,
+      "retrieved": 153,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 24
+      }
+    },
+    {
+      "id": "neg-supplier-share",
+      "layer": "negative",
+      "version": "v2",
+      "checks": {
+        "completed": true,
+        "no_fabrication": true,
+        "citations_real": true,
+        "mode_respected": true,
+        "source_expected": null,
+        "review_effective": true,
+        "facts_correct": null,
+        "abstained": true
+      },
+      "passed": true,
+      "missing_facts": [],
+      "error": null,
+      "seconds": 958,
+      "report_chars": 13002,
+      "refs": 28,
+      "retrieved": 159,
+      "review": {
+        "verdict": "major_issues",
+        "quality_score": 4,
+        "issues_count": 18
+      }
+    }
+  ]
+}

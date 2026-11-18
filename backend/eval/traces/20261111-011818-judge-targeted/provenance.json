@@ -1,0 +1,17 @@
+{
+  "purpose": "judge-only regression; no backend requests",
+  "selection": [
+    {
+      "id": "cf-sf-posture",
+      "version": "v1",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-005407-final/cf-sf-posture.v1.sse",
+      "sha256": "b9f43541311d32fdc6e3ada49b96976192feff936bf38a66ee7688ff2f36953b"
+    },
+    {
+      "id": "neg-export-secret",
+      "version": "v2",
+      "source": "/Users/admin/Desktop/industry_information_assistant/backend/eval/traces/20261111-005407-final/neg-export-secret.v2.sse",
+      "sha256": "c48eb94964ea354803ece635783f9e4d35f927457aa3037e7a0278fc9af5a58b"
+    }
+  ]
+}
